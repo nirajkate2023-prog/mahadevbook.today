@@ -111,7 +111,7 @@ export default function Home() {
                 India’s Trusted Platform for Mahadev Book ID &amp; App Access
               </h1>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, your trusted source for information on Mahadev Book ID, Mahadev Book login, and app access. Secure login features, quick registration guidance and smooth mobile-friendly experience all in one place. From fantasy cricket to live casino games, real-time sports betting to instant withdrawals, we bring the most complete and user-friendly betting environment to your fingertips. Whether you&apos;re a beginner or a seasoned gamer, <strong className="text-gold font-bold">Mahadev Book ID</strong> gives you access to a premium betting experience with advanced technology, real-time odds, and unbeatable promotions.
+                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, your trusted friend source for information on Mahadev Book ID, Mahadev Book login, and app access. Secure login features, quick registration guidance and smooth mobile-friendly experience all in one place. From fantasy cricket to live casino games, real-time sports betting to instant withdrawals, we bring the most complete and user-friendly betting environment to your fingertips. Whether you&apos;re a beginner or a seasoned gamer, <strong className="text-gold font-bold">Mahadev Book ID</strong> gives you access to a premium betting experience with advanced technology, real-time odds, and unbeatable promotions.
               </p>
               <div className="pt-2">
                 <a
