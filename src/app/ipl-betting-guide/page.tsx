@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Complete IPL betting guide: how IPL markets work, which bets to place, how to read live odds during matches, and responsible betting tips for the Indian Premier League.",
   alternates: {
-    canonical: "https://mahadevbooks.today/ipl-betting-guide",
+    canonical: "https://mahadevbooks.today/ipl-betting-guide/",
   },
   openGraph: {
     title: "IPL Betting Guide – How to Bet on IPL Matches",
     description:
       "Learn how IPL betting works: markets, odds, live betting strategy, and responsible gaming tips. A complete guide for Indian cricket fans.",
-    url: "https://mahadevbooks.today/ipl-betting-guide",
+    url: "https://mahadevbooks.today/ipl-betting-guide/",
     type: "article",
     images: [
       {
@@ -61,7 +61,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/ipl-betting-guide",
+    "@id": "https://mahadevbooks.today/ipl-betting-guide/",
   },
 };
 

@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     "cricket football betting India",
   ],
   alternates: {
-    canonical: "https://mahadevbooks.today/mahadev-book-online",
+    canonical: "https://mahadevbooks.today/mahadev-book-online/",
   },
   openGraph: {
     title: "Mahadev Book Online – Trusted Safe Betting Platform Since 2015",
     description:
       "Mahadev Book Online is India's most trusted betting platform since 2015. Cricket, casino games, fantasy sports, and instant withdrawals.",
-    url: "https://mahadevbooks.today/mahadev-book-online",
+    url: "https://mahadevbooks.today/mahadev-book-online/",
     type: "website",
     images: [
       {

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Mahadev Book is committed to responsible gaming. Learn how to set limits, recognise problem gambling signs, and access support resources. 18+ only.",
   alternates: {
-    canonical: "https://mahadevbooks.today/responsible-gaming",
+    canonical: "https://mahadevbooks.today/responsible-gaming/",
   },
   openGraph: {
     title: "Responsible Gaming – Safe Betting Guidelines | Mahadev Book",
     description:
       "Our responsible gaming policy, self-exclusion tools, warning signs of problem gambling, and helpline resources. Betting is for adults 18+ only.",
-    url: "https://mahadevbooks.today/responsible-gaming",
+    url: "https://mahadevbooks.today/responsible-gaming/",
     type: "website",
     images: [
       {

@@ -3,81 +3,104 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
+import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Blog – Cricket Betting Tips, IPL Guides & Fantasy Cricket | Mahadev Book",
+  title: "Blog – Mahadev Book Betting Guides & Industry News",
   description:
-    "Read the Mahadev Book blog for cricket betting guides, IPL betting tips, UPI payment safety, odds explained, and responsible gaming advice.",
+    "Explore the official Mahadev Book blog for expert cricket betting guides, IPL tips, UPI payment safety advice, glossary terms, and responsible gaming resources.",
   alternates: {
-    canonical: "https://mahadevbooks.today/blog",
+    canonical: "https://mahadevbooks.today/blog/",
   },
   openGraph: {
-    title: "Blog – Cricket Betting Tips & IPL Fantasy Guides | Mahadev Book",
+    title: "Blog – Mahadev Book Betting Guides & Industry News",
     description:
-      "Latest cricket betting guides, IPL tips, UPI payment safety, and responsible gaming articles on the Mahadev Book blog.",
-    url: "https://mahadevbooks.today/blog",
+      "Expert cricket betting guides, IPL tips, UPI payment safety advice, glossary terms, and responsible gaming resources.",
+    url: "https://mahadevbooks.today/blog/",
     type: "website",
+    images: [
+      {
+        url: "https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png",
+        width: 1983,
+        height: 793,
+        alt: "Mahadev Book Blog",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog – Mahadev Book Betting Guides & Industry News",
+    description:
+      "Expert cricket betting guides, IPL tips, UPI payment safety advice, glossary terms, and responsible gaming resources.",
+    images: ["https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png"],
   },
 };
 
-export default function Blog() {
-  const posts = [
-    {
-      title: "How Live Cricket Betting Odds Work – Complete Guide",
-      date: "August 14, 2026",
-      excerpt:
-        "Learn exactly how live cricket betting odds work — decimal vs fractional formats, why odds move during a match ball by ball, and how to read in-play markets before placing a bet.",
-      img: "https://mahadevbooks.today/wp-content/uploads/2025/05/How-to-Use-Mahadev-Book-ID-for-IPL-Betting-–-Step-by-Step-Guide.jpg",
-      link: "/blog/how-live-cricket-betting-odds-work",
-      badge: "Beginner Guide",
-    },
-    {
-      title: "IPL Betting Terms Explained for Beginners",
-      date: "August 14, 2026",
-      excerpt:
-        "A plain-English glossary of 15 IPL and cricket betting terms — from run line and toss bet to accumulator, cash out, and wagering requirement. Know the language before you bet.",
-      img: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-id.jpg",
-      link: "/blog/ipl-betting-terms-explained",
-      badge: "IPL Betting",
-    },
-    {
-      title: "Is UPI Safe for Online Payments? A Complete Safety Guide",
-      date: "August 14, 2026",
-      excerpt:
-        "How UPI encryption works, what scams to watch out for (fake collect requests, QR tricks), a safety checklist, and NPCI security standards — everything you need to transact safely.",
-      img: "https://mahadevbooks.today/wp-content/uploads/2026/05/About-us-1024x683.png",
-      link: "/blog/upi-payment-safety-guide",
-      badge: "UPI & Payments",
-    },
-    {
-      title: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
-      date: "May 17, 2025",
-      excerpt:
-        "With the popularity of the Indian Premier League (IPL) soaring every year, cricket betting has taken on a new dimension. Among the many platforms available,",
-      img: "https://mahadevbooks.today/wp-content/uploads/2025/05/How-to-Use-Mahadev-Book-ID-for-IPL-Betting-–-Step-by-Step-Guide.jpg",
-      link: "/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide",
-      badge: null,
-    },
-    {
-      title: "Start Your IPL Fantasy Cricket Journey with Mahadev Book",
-      date: "May 7, 2025",
-      excerpt:
-        "IPL is not just another cricket tournament—it's a festival of cricket celebrated by millions across India. With the rise of digital platforms, fantasy cricket has",
-      img: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-id.jpg",
-      link: "/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book",
-      badge: null,
-    },
-  ];
+const blogJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "Mahadev Book Blog",
+  description: "Expert cricket betting guides, IPL tips, UPI payment safety advice, and glossary terms.",
+  publisher: {
+    "@type": "Organization",
+    name: "Mahadev Book",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://mahadevbooks.today/wp-content/uploads/2025/05/cropped-mahadev-book-logo-120x40.png"
+    }
+  }
+};
 
-  const guides = [
-    { title: "Cricket Betting Guide", href: "/cricket-betting-guide", desc: "How odds, bet types and markets work" },
-    { title: "IPL Betting Guide", href: "/ipl-betting-guide", desc: "IPL-specific markets and live betting strategy" },
-    { title: "UPI Payment Guide", href: "/upi-payment-guide", desc: "Step-by-step UPI deposit instructions" },
-    { title: "Responsible Gaming", href: "/responsible-gaming", desc: "Tools and resources for safe betting" },
-  ];
+const posts = [
+  {
+    title: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
+    description: "A complete step-by-step guide to using your Mahadev Book ID for IPL betting — from getting your ID to placing your first bet, understanding IPL markets, and making UPI deposits.",
+    href: "/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide",
+    date: "May 17, 2025 (Updated August 2026)",
+    image: "https://mahadevbooks.today/wp-content/uploads/2025/05/How-to-Use-Mahadev-Book-ID-for-IPL-Betting-–-Step-by-Step-Guide.jpg",
+    readTime: "9 min read"
+  },
+  {
+    title: "How Live Cricket Betting Odds Work – Complete Guide",
+    description: "Learn exactly how live cricket betting odds work — decimal vs fractional odds, why odds move during a match, how to read in-play markets, and how to use odds to make informed decisions.",
+    href: "/blog/how-live-cricket-betting-odds-work",
+    date: "August 14, 2026",
+    image: "https://mahadevbooks.today/wp-content/uploads/2025/05/How-to-Use-Mahadev-Book-ID-for-IPL-Betting-–-Step-by-Step-Guide.jpg",
+    readTime: "7 min read"
+  },
+  {
+    title: "IPL Betting Terms Explained for Beginners",
+    description: "A clear glossary of IPL betting terms for beginners — from run line and toss bet to top batsman, in-play market, and cash out. Understand every term before you bet.",
+    href: "/blog/ipl-betting-terms-explained",
+    date: "August 14, 2026",
+    image: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-id.jpg",
+    readTime: "6 min read"
+  },
+  {
+    title: "Start Your IPL Fantasy Cricket Journey with Mahadev Book",
+    description: "Everything you need to start your IPL fantasy cricket journey — how fantasy cricket works, how to build a winning team, scoring rules, contest types, and tips for beginners.",
+    href: "/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book",
+    date: "May 17, 2025 (Updated August 2026)",
+    image: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-id.jpg",
+    readTime: "11 min read"
+  },
+  {
+    title: "Is UPI Safe for Online Payments? A Complete Safety Guide",
+    description: "Is UPI safe? A complete guide to UPI payment security — how UPI encryption works, common scams to avoid, NPCI safety standards, and how to protect your UPI transactions.",
+    href: "/blog/upi-payment-safety-guide",
+    date: "August 14, 2026",
+    image: "https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png",
+    readTime: "8 min read"
+  }
+];
 
+export default function BlogPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
       <Header />
       <Breadcrumb
         items={[
@@ -85,96 +108,99 @@ export default function Blog() {
           { label: "Blog" },
         ]}
       />
-      <main className="bg-black text-white py-6 md:py-10 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto space-y-16">
+      <main className="bg-black text-white py-6 px-4 sm:px-6 lg:px-8 space-y-8">
+        {/* Hero Banner */}
+        <section className="max-w-4xl mx-auto border-2 border-gold/40 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg text-center">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gold mb-4 font-heading">
+            Mahadev Book Blog
+          </h1>
+          <div className="w-24 h-0.5 bg-gold mx-auto" />
+          <p className="text-center text-gray-300 max-w-2xl mx-auto mt-6 text-sm md:text-base">
+            Stay ahead with our expert guides, tips, and security insights. Learn how to place smart bets, understand cricket odds, and keep your online transactions secure.
+          </p>
+        </section>
 
-          {/* Section Heading */}
-          <div className="text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-gold font-heading tracking-wide uppercase">
-              Latest Blog Posts
-            </h1>
-            <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
-            <p className="text-gray-400 text-sm md:text-base mt-4 max-w-2xl mx-auto">
-              Cricket betting guides, IPL tips, UPI payment safety, and responsible gaming — written by the Mahadev Book editorial team.
-            </p>
-          </div>
-
-          {/* Grid Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        {/* Blog Post List */}
+        <section className="max-w-4xl mx-auto space-y-6">
+          <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider mb-2">
+            Latest Articles
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {posts.map((post, i) => (
-              <article key={i} className="flex flex-col space-y-4 text-left">
-                {/* Thumbnail Link */}
-                <a
-                  href={post.link}
-                  className="block rounded-xl overflow-hidden border border-gold/20 hover:border-gold/50 shadow-md hover:shadow-xl transition-all duration-300 relative"
-                >
+              <article
+                key={i}
+                className="flex flex-col border border-gold/15 hover:border-gold/50 rounded-2xl bg-[#0c0c0e] shadow-lg overflow-hidden transition-all duration-300 group"
+              >
+                {/* Thumbnail Image */}
+                <div className="relative aspect-video w-full overflow-hidden bg-black/50 border-b border-gold/10">
                   <img
-                    src={post.img}
+                    src={post.image}
                     alt={post.title}
-                    className="w-full h-48 object-cover"
+                    className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
-                  {post.badge && (
-                    <span className="absolute top-3 left-3 bg-gold text-black text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
-                      {post.badge}
-                    </span>
-                  )}
-                </a>
-
-                {/* Excerpt Details */}
-                <div className="space-y-2 flex-1 flex flex-col">
-                  <h2 className="text-base md:text-lg font-bold text-white hover:text-gold transition-colors duration-200 leading-snug">
-                    <a href={post.link}>{post.title}</a>
-                  </h2>
-
-                  {/* Post Date */}
-                  <div className="text-xs text-gray-500 font-semibold">
-                    {post.date}
+                  <div className="absolute top-3 left-3 bg-black/80 border border-gold/30 text-gold px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                    {post.readTime}
                   </div>
+                </div>
 
-                  {/* Description Paragraph */}
-                  <p className="text-gray-400 text-sm leading-relaxed flex-1">
-                    {post.excerpt}
-                  </p>
-
-                  {/* Read More Link */}
-                  <div className="pt-2">
-                    <a
-                      href={post.link}
-                      className="text-gold hover:text-gold/70 font-bold text-sm transition-colors duration-200 flex items-center gap-1"
+                {/* Content */}
+                <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
+                  <div className="space-y-2">
+                    <p className="text-xs text-gray-500 uppercase tracking-wide">
+                      {post.date}
+                    </p>
+                    <h3 className="text-lg font-bold text-gold group-hover:text-[#ffca61] transition-colors duration-200 line-clamp-2">
+                      {post.title}
+                    </h3>
+                    <p className="text-gray-400 text-sm leading-relaxed line-clamp-3">
+                      {post.description}
+                    </p>
+                  </div>
+                  <div>
+                    <Link
+                      href={post.href}
+                      className="inline-flex items-center text-gold font-bold text-sm hover:underline"
                     >
-                      Read More »
-                    </a>
+                      Read Full Guide <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
+                    </Link>
                   </div>
                 </div>
               </article>
             ))}
           </div>
+        </section>
 
-          {/* Guides Section */}
-          <div className="border-t border-gold/10 pt-12">
-            <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider text-center mb-8">
-              Explore Our Guides
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {guides.map((guide, i) => (
-                <a
-                  key={i}
-                  href={guide.href}
-                  className="block bg-[#0c0c0e] border border-gold/15 hover:border-gold/50 rounded-xl p-5 space-y-1.5 transition-all duration-200 hover:shadow-lg"
-                >
-                  <p className="text-gold font-bold text-sm">{guide.title} →</p>
-                  <p className="text-gray-500 text-xs">{guide.desc}</p>
-                </a>
-              ))}
-            </div>
-          </div>
-
-          <p className="text-center text-xs text-gray-600 pb-2">
-            18+ only. Gambling involves risk. Please bet responsibly.{" "}
-            <a href="/responsible-gaming" className="hover:text-gold underline">Responsible Gaming Policy</a>
+        {/* Responsible Gaming Info */}
+        <section className="max-w-4xl mx-auto border border-gold/25 rounded-2xl p-6 md:p-8 bg-[#0c0c0e] space-y-3">
+          <h2 className="text-lg md:text-xl font-bold text-gold">Bet Responsibly</h2>
+          <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+            Betting on cricket and sports should be fun and entertaining. Set budget limits before you start, never gamble with money you can&apos;t afford to lose, and check our{" "}
+            <a href="/responsible-gaming" className="text-gold font-semibold hover:underline">
+              Responsible Gaming Guide
+            </a>{" "}
+            for safety resources and self-exclusion tools.
           </p>
-        </div>
+        </section>
+
+        {/* CTA Banner */}
+        <section className="max-w-4xl mx-auto border-2 border-gold/40 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg text-center space-y-4">
+          <h2 className="text-xl font-bold text-gold uppercase">Get Your Online Cricket ID Today</h2>
+          <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto">
+            Ready to apply what you&apos;ve learned? Connect with us on WhatsApp to register your Mahadev Book account and get your ID within 2 minutes.
+          </p>
+          <a
+            href="https://wa.me/+919864360936"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-transparent hover:bg-gold text-gold hover:text-black border-2 border-gold px-10 py-4 rounded-full text-sm font-bold uppercase tracking-wider transition-all duration-200"
+          >
+            Get Cricket ID on WhatsApp
+          </a>
+          <p className="text-xs text-gray-600">
+            Must be 18+ to play. All payments and registrations are securely processed via WhatsApp.
+          </p>
+        </section>
       </main>
       <Footer />
       <FloatingWhatsApp />

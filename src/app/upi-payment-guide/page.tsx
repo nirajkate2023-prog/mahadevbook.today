@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "A complete guide to using UPI for online payments on sports platforms. Learn how Google Pay, PhonePe, and BHIM UPI work, how to stay safe, and what to check before you pay.",
   alternates: {
-    canonical: "https://mahadevbooks.today/upi-payment-guide",
+    canonical: "https://mahadevbooks.today/upi-payment-guide/",
   },
   openGraph: {
     title: "UPI Payment Guide for Online Sports Platforms",
     description:
       "Everything you need to know about using UPI safely for online payments — Google Pay, PhonePe, BHIM, safety tips, and what to avoid.",
-    url: "https://mahadevbooks.today/upi-payment-guide",
+    url: "https://mahadevbooks.today/upi-payment-guide/",
     type: "article",
     images: [
       {
@@ -62,7 +62,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/upi-payment-guide",
+    "@id": "https://mahadevbooks.today/upi-payment-guide/",
   },
 };
 

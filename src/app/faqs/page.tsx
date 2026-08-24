@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Find answers to the most common questions about Mahadev Book — account registration, cricket IDs, deposits via UPI, withdrawals, app downloads, and responsible gaming.",
   alternates: {
-    canonical: "https://mahadevbooks.today/faqs",
+    canonical: "https://mahadevbooks.today/faqs/",
   },
   openGraph: {
     title: "FAQs – Frequently Asked Questions | Mahadev Book",
     description:
       "Answers to common questions about cricket IDs, UPI deposits, withdrawals, app access, responsible gaming, and account management on Mahadev Book.",
-    url: "https://mahadevbooks.today/faqs",
+    url: "https://mahadevbooks.today/faqs/",
     type: "website",
     images: [
       {

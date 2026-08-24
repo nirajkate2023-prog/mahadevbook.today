@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Mahadev Book welcome bonus",
   ],
   alternates: {
-    canonical: "https://mahadevbooks.today/register",
+    canonical: "https://mahadevbooks.today/register/",
   },
   robots: {
     index: false,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Register on Mahadev Book – Get Your Cricket ID in 2 Minutes",
     description:
       "Sign up and get your Mahadev Book cricket ID instantly. 100% welcome bonus up to ₹10,000 for new users. Register now!",
-    url: "https://mahadevbooks.today/register",
+    url: "https://mahadevbooks.today/register/",
     type: "website",
     images: [
       {

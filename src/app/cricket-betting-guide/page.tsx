@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "A complete cricket betting guide for beginners. Learn how cricket betting odds work, types of bets, how to read markets, and tips for responsible betting in India.",
   alternates: {
-    canonical: "https://mahadevbooks.today/cricket-betting-guide",
+    canonical: "https://mahadevbooks.today/cricket-betting-guide/",
   },
   openGraph: {
     title: "Cricket Betting Guide – How Online Cricket Betting Works",
     description:
       "Learn how cricket betting works, understand odds, explore bet types, and discover responsible betting practices in this complete beginner guide.",
-    url: "https://mahadevbooks.today/cricket-betting-guide",
+    url: "https://mahadevbooks.today/cricket-betting-guide/",
     type: "article",
     images: [
       {
@@ -61,7 +61,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/cricket-betting-guide",
+    "@id": "https://mahadevbooks.today/cricket-betting-guide/",
   },
 };
 

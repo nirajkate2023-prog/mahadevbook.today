@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "A clear glossary of IPL betting terms for beginners — from run line and toss bet to top batsman, in-play market, and cash out. Understand every term before you bet.",
   alternates: {
-    canonical: "https://mahadevbooks.today/blog/ipl-betting-terms-explained",
+    canonical: "https://mahadevbooks.today/blog/ipl-betting-terms-explained/",
   },
   openGraph: {
     title: "IPL Betting Terms Explained for Beginners",
     description:
       "Don't bet before you understand the terminology. A plain-English glossary of IPL and cricket betting terms for new bettors.",
-    url: "https://mahadevbooks.today/blog/ipl-betting-terms-explained",
+    url: "https://mahadevbooks.today/blog/ipl-betting-terms-explained/",
     type: "article",
     images: [
       {
@@ -62,7 +62,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/blog/ipl-betting-terms-explained",
+    "@id": "https://mahadevbooks.today/blog/ipl-betting-terms-explained/",
   },
 };
 

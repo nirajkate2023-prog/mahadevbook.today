@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     "Everything you need to start your IPL fantasy cricket journey — how fantasy cricket works, how to build a winning team, scoring rules, contest types, and tips for beginners.",
   alternates: {
     canonical:
-      "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book",
+      "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book/",
   },
   openGraph: {
     title: "Start Your IPL Fantasy Cricket Journey with Mahadev Book",
     description:
       "A beginner's guide to IPL fantasy cricket — team building, scoring systems, contest types, captain and vice-captain strategy, and how to use your Cricket ID to join leagues.",
-    url: "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book",
+    url: "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book/",
     type: "article",
     images: [
       {
@@ -53,7 +53,7 @@ const articleJsonLd = {
   image: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-id.jpg",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book",
+    "@id": "https://mahadevbooks.today/blog/start-your-ipl-fantasy-cricket-journey-with-mahadev-book/",
   },
 };
 

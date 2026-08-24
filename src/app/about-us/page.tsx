@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Learn about Mahadev Book, India's most trusted online betting platform with 1 million+ active users. Our vision, values, and what we offer — cricket, casino, fantasy sports.",
   alternates: {
-    canonical: "https://mahadevbooks.today/about-us",
+    canonical: "https://mahadevbooks.today/about-us/",
   },
   openGraph: {
     title: "About Us – Mahadev Book | India's Trusted Betting Platform",
     description:
       "Mahadev Book is India's leading online gaming platform with 1M+ active users. Secure, fast, and transparent betting since 2015.",
-    url: "https://mahadevbooks.today/about-us",
+    url: "https://mahadevbooks.today/about-us/",
     type: "website",
     images: [
       {

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Read Mahadev Book's Terms and Conditions covering account registration, betting rules, deposits, withdrawals, responsible gaming, and user obligations.",
   alternates: {
-    canonical: "https://mahadevbooks.today/terms-and-conditions",
+    canonical: "https://mahadevbooks.today/terms-and-conditions/",
   },
   openGraph: {
     title: "Terms and Conditions | Mahadev Book",
     description:
       "Mahadev Book Terms and Conditions — account rules, eligible users (18+), betting policies, payment terms, and responsible gaming obligations.",
-    url: "https://mahadevbooks.today/terms-and-conditions",
+    url: "https://mahadevbooks.today/terms-and-conditions/",
     type: "website",
     images: [
       {

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Read Mahadev Book's Privacy Policy to understand how we collect, use, and protect your personal and financial data. SSL encrypted. Compliant and secure.",
   alternates: {
-    canonical: "https://mahadevbooks.today/privacy-policy",
+    canonical: "https://mahadevbooks.today/privacy-policy/",
   },
   openGraph: {
     title: "Privacy Policy – Mahadev Book",
     description:
       "Read Mahadev Book's Privacy Policy to understand how we collect, use, and protect your personal and financial data.",
-    url: "https://mahadevbooks.today/privacy-policy",
+    url: "https://mahadevbooks.today/privacy-policy/",
     type: "website",
     images: [
       {

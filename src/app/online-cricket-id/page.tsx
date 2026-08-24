@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Online Cricket ID | Get Cricket Betting ID Instantly | Mahadev Book",
@@ -18,13 +19,13 @@ export const metadata: Metadata = {
     "fantasy cricket ID",
   ],
   alternates: {
-    canonical: "https://mahadevbooks.today/online-cricket-id",
+    canonical: "https://mahadevbooks.today/online-cricket-id/",
   },
   openGraph: {
     title: "Online Cricket ID | Get Cricket Betting ID Instantly | Mahadev Book",
     description:
       "Get your Online Cricket ID from Mahadev Book in just 1 minute. Enjoy free first bet, welcome bonuses, and IPL fantasy leagues.",
-    url: "https://mahadevbooks.today/online-cricket-id",
+    url: "https://mahadevbooks.today/online-cricket-id/",
     type: "website",
     images: [
       {
@@ -170,7 +171,7 @@ export default function OnlineCricketId() {
           <div className="max-w-xl mx-auto bg-black/40 border border-gold/10 p-6 md:p-8 rounded-xl space-y-4">
             <ol className="space-y-3 text-xs md:text-sm text-gray-200">
               <li>
-                <strong className="text-gold">Step 1:</strong> Visit Official Site Of <a href="/" className="text-gold hover:underline">Mahadev Book</a>
+                <strong className="text-gold">Step 1:</strong> Visit Official Site Of <Link href="/" className="text-gold hover:underline">Mahadev Book</Link>
               </li>
               <li>
                 <strong className="text-gold">Step 2:</strong> Click on <strong>“Get Instant ID”</strong>

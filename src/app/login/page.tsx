@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Mahadev Book account access",
   ],
   alternates: {
-    canonical: "https://mahadevbooks.today/login",
+    canonical: "https://mahadevbooks.today/login/",
   },
   robots: {
     index: false,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Mahadev Book Login – Access Your Betting Account Instantly",
     description:
       "Login to your Mahadev Book account securely. Access cricket betting, casino games, fantasy sports, and live betting with your Mahadev Book ID.",
-    url: "https://mahadevbooks.today/login",
+    url: "https://mahadevbooks.today/login/",
     type: "website",
     images: [
       {

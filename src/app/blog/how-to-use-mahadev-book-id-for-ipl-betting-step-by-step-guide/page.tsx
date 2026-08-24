@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     "A complete step-by-step guide to using your Mahadev Book ID for IPL betting — from getting your ID to placing your first bet, understanding IPL markets, and making UPI deposits.",
   alternates: {
     canonical:
-      "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide",
+      "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/",
   },
   openGraph: {
     title: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
     description:
       "Step-by-step: get your Mahadev Book Cricket ID, deposit via UPI, navigate IPL markets, and place your first bet on the Indian Premier League.",
-    url: "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide",
+    url: "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/",
     type: "article",
     images: [
       {
@@ -54,7 +54,7 @@ const articleJsonLd = {
     "https://mahadevbooks.today/wp-content/uploads/2025/05/How-to-Use-Mahadev-Book-ID-for-IPL-Betting-–-Step-by-Step-Guide.jpg",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide",
+    "@id": "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/",
   },
 };
 

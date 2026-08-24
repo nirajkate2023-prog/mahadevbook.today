@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Learn exactly how live cricket betting odds work — decimal vs fractional odds, why odds move during a match, how to read in-play markets, and how to use odds to make informed decisions.",
   alternates: {
-    canonical: "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work",
+    canonical: "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work/",
   },
   openGraph: {
     title: "How Live Cricket Betting Odds Work – Complete Guide",
     description:
       "A complete guide to understanding live cricket betting odds — how they are set, why they change during play, and how to read them before placing a bet.",
-    url: "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work",
+    url: "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work/",
     type: "article",
     images: [
       {
@@ -62,7 +62,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work",
+    "@id": "https://mahadevbooks.today/blog/how-live-cricket-betting-odds-work/",
   },
 };
 

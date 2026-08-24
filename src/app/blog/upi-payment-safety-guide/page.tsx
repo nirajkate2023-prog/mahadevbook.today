@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   description:
     "Is UPI safe? A complete guide to UPI payment security — how UPI encryption works, common scams to avoid, NPCI safety standards, and how to protect your UPI transactions.",
   alternates: {
-    canonical: "https://mahadevbooks.today/blog/upi-payment-safety-guide",
+    canonical: "https://mahadevbooks.today/blog/upi-payment-safety-guide/",
   },
   openGraph: {
     title: "Is UPI Safe for Online Payments? A Complete Safety Guide",
     description:
       "Everything you need to know about UPI payment security — how it works, risks to watch for, scam tactics to avoid, and how to stay protected.",
-    url: "https://mahadevbooks.today/blog/upi-payment-safety-guide",
+    url: "https://mahadevbooks.today/blog/upi-payment-safety-guide/",
     type: "article",
     images: [
       {
@@ -62,7 +62,7 @@ const articleJsonLd = {
   dateModified: "2026-08-14",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://mahadevbooks.today/blog/upi-payment-safety-guide",
+    "@id": "https://mahadevbooks.today/blog/upi-payment-safety-guide/",
   },
 };
 
