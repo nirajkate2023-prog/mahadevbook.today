@@ -63,7 +63,7 @@ const homeFaqJsonLd = {
       name: "Is Mahadev Book a legal and safe platform?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Mahadev Book uses certified RNG technology, encryption protocols, and operates under strict compliance to offer fair, legal, and secure online betting in India.",
+        text: "Mahadev Book uses encryption on its website connections and account-security practices intended to protect users. You must be of legal age and only use the service where online sports betting is permitted. Review our Terms and Responsible Gaming pages for details.",
       },
     },
     {
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto rounded-xl sm:rounded-3xl overflow-hidden shadow-2xl border border-gold/20">
           <img
             src="https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png"
-            alt="Mahadev Book Hero Banner – India's Best Online Cricket ID Provider"
+            alt="Mahadev Book Hero Banner – Official Online Cricket ID Platform"
             className="w-full h-auto object-cover"
             width={1983}
             height={793}
@@ -116,7 +116,7 @@ export default function Home() {
                 Mahadev Book Official – Online Cricket ID & Sports Betting Platform
               </h1>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, the premier platform for online sports betting and cricket IDs. We provide a secure, fast, and user-friendly environment for betting on your favorite events. Get started today with our seamless registration process.
+                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, an online sports betting and cricket ID platform. Register for an account, log in securely, and access cricket, other sports, and casino markets through a clear signup process.
               </p>
               <div className="pt-2">
                 <a
@@ -134,7 +134,7 @@ export default function Home() {
               <div className="rounded-2xl overflow-hidden border border-gold/20 shadow-md">
                 <img
                   src="https://mahadevbooks.today/wp-content/uploads/2026/05/About-us-1024x683.png"
-                  alt="About Mahadev Book – Trusted Online Cricket ID Platform India"
+                  alt="About Mahadev Book – Online Cricket ID Platform"
                   className="w-full max-w-sm h-auto object-cover"
                   width={512}
                   height={341}
@@ -462,7 +462,7 @@ export default function Home() {
               },
               {
                 title: "Roulette:",
-                desc: "The orgasm will be felt and The Roulette spins will be placed on your lucky numbers. Mahadev Book has several betting options and live dealers and brings you European and American versions.",
+                desc: "Place bets on numbers, colours, or sections as the wheel spins. Mahadev Book offers multiple roulette betting options with live dealers, including European and American variants where available.",
               },
               {
                 title: "Baccarat:",
@@ -516,22 +516,22 @@ export default function Home() {
             {[
               {
                 title: "Welcome and Daily Rewards:",
-                desc: "Earn a decent welcome bonus when you make your first deposit and you will get daily login rewards for simply logging in. Mahadev Book makes sure that all users begin keeping strong and getting the same encouragement day in and day out.",
+                desc: "New users may be eligible for a welcome offer on their first deposit, and periodic login or daily rewards may be available depending on current promotions. Terms and eligibility apply — ask support for details before depositing.",
                 img: "https://mahadevbooks.today/wp-content/uploads/2025/05/gift.png",
               },
               {
                 title: "Referral and Cashback Offers:",
-                desc: "Invite your friends and get referral bonuses each time your friends join and play. Plus, get the deposit cashback offers regularly, making every top-up a rewarding way to top up your account in the blink of an eye.",
+                desc: "Referral rewards and deposit cashback may be offered from time to time. Availability, rates, and conditions can change, so confirm the latest terms with support or in your account.",
                 img: "https://mahadevbooks.today/wp-content/uploads/2025/05/bonus-6.png",
               },
               {
                 title: "Leaderboard Prizes for Top Bettors:",
-                desc: "Challenge other users and challenge your way to the top of the Mahadev Book leaderboard with huge weekly and monthly incentives. The more you play, and the more your win, you rank up, and the more exclusive rewards you uncover.",
+                desc: "Selected leaderboard contests may award weekly or monthly prizes based on activity or ranking. Prize structures vary by promotion and are subject to contest rules.",
                 img: "https://mahadevbooks.today/wp-content/uploads/2025/05/prize.png",
               },
               {
                 title: "Festive & Match Promotions:",
-                desc: "Celebrate such life events as IPL or World Cup with festival bonuses and special deals related to certain matches. Be on the lookout for our app and website for quick promotions purposefully designed to enhance your betting experience.",
+                desc: "During major events such as the IPL or World Cup, limited-time match or festival promotions may appear on the website or app. Check official channels for active offers and terms.",
                 img: "https://mahadevbooks.today/wp-content/uploads/2025/05/present.png",
               },
             ].map((promo, i) => (
@@ -590,28 +590,28 @@ export default function Home() {
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
-              Trusted by 10 Lakh+ Mahadevbook Active Users
+              Why Players Choose Mahadev Book
             </h2>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-8 text-base">
             <p className="text-gray-300 leading-relaxed md:text-lg">
-              Having more than a million active bettors, Mahadev Book has become reputable by offering security, fairness and transparency. The emphasis on customer satisfaction, safe technology and quick assistance make us the #1 choice for Indian online bettors.
+              Mahadev Book focuses on clear account access, sports and casino markets, and responsive support. We emphasise secure connections, fair play practices, and practical guidance so you can use the platform with realistic expectations.
             </p>
             <p className="text-gold font-bold md:text-lg">
-              Don’t believe us about it, enter the community and see the difference yourself! Start Today – The Winning Process of the Mahadev Book Starts Here!
+              Ready to get started? Create your Mahadev Book ID through the official site or WhatsApp support.
             </p>
             <p className="text-gray-300 font-semibold md:text-lg">
-              Click below to get your Mahadev Book ID and download Mahadev betting app and start massive winning today.
+              Use the button below to request your ID, then log in and explore available markets. Always bet within your means and only where permitted by law.
             </p>
             
             <div className="bg-black/50 border border-gold/25 rounded-2xl p-6 max-w-md mx-auto space-y-3">
               <p className="font-bold text-gold text-sm uppercase tracking-wider">Your Checklist:</p>
               <ul className="text-left text-sm text-gray-200 space-y-2 max-w-xs mx-auto">
                 <li>🎯 Get Your Mahadev Book Id Now!</li>
-                <li>📱 Mahadev Betting App To access.</li>
-                <li>🏆 Get Your Welcome Bonus &amp; Play!</li>
+                <li>📱 Access via website or betting app</li>
+                <li>🏆 Review any current promotions with support</li>
               </ul>
             </div>
 

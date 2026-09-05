@@ -122,7 +122,7 @@ export default function Login() {
               Mahadev Book Login: Access Your Account Seamlessly!
             </h1>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Welcome to <strong>Mahadev Book Login</strong> portal is your gateway to a world of exciting betting opportunities, including cricket, football, tennis, and exclusive casino games. Whether you&apos;re a seasoned bettor or a newcomer, logging into your Mahadev Book account is quick, safe, and designed to get you into the action in seconds.
+              The <strong>Mahadev Book Login</strong> page is your gateway to cricket, football, tennis, and casino markets. Whether you&apos;re an experienced bettor or new to the platform, signing in with your Mahadev Book ID is designed to be quick and straightforward.
             </p>
             <div className="pt-2">
               <a
@@ -162,7 +162,7 @@ export default function Login() {
               <div className="lg:col-span-7 space-y-6 text-left">
                 <ol className="space-y-4 text-xs md:text-sm text-gray-300">
                   <li>
-                    <strong className="text-gold">1. Visit the Official Website:</strong> Open your browser and navigate to the official Mahadev Book website at <span className="text-gold font-semibold">mahadevbook.solutions</span>. Ensure you&apos;re on the legitimate site to protect your account.
+                    <strong className="text-gold">1. Visit the Official Website:</strong> Open your browser and navigate to the official Mahadev Book website at <span className="text-gold font-semibold">mahadevbooks.today</span>. Ensure you&apos;re on the legitimate site to protect your account.
                   </li>
                   <li>
                     <strong className="text-gold">2. Locate the Login Button:</strong> On the homepage, find the &quot;Login&quot; button at the top-right corner.
@@ -174,7 +174,7 @@ export default function Login() {
                     <strong className="text-gold">4. Click Login:</strong> Press the &quot;Login&quot; button to access your account dashboard.
                   </li>
                   <li>
-                    <strong className="text-gold">5. Enable Two-Factor Authentication (Optional):</strong> For added security, activate 2FA during your first login to receive a verification code via email or SMS.
+                    <strong className="text-gold">5. Use Extra Security Where Available:</strong> If your account supports additional verification (such as OTP or two-factor authentication), enable it for stronger protection.
                   </li>
                 </ol>
 
@@ -216,10 +216,10 @@ export default function Login() {
               <li>Fill in your details: full name, email, phone number, and preferred payment method.</li>
               <li>Submit the registration form via the website or WhatsApp (available on the official site).</li>
               <li>Receive your unique <strong>Mahadev Book ID</strong> and set a secure password.</li>
-              <li>Log in and claim your welcome bonus to kickstart your betting journey!</li>
+              <li>Log in and review any current promotions that may apply to your account.</li>
             </ul>
             <p className="text-gray-400 text-xs max-w-3xl mx-auto italic">
-              Registration takes less than a minute, and new users can enjoy exclusive promotions to enhance their betting experience.
+              Registration is typically quick. Current promotions, where available, are subject to eligibility requirements and promotion terms.
             </p>
             <div className="pt-2">
               <a
@@ -260,7 +260,7 @@ export default function Login() {
                 ⚠️ <strong className="text-gold">Beware of Phishing:</strong> Only use the official Mahadev Book website or app for login. Avoid clicking suspicious links claiming to be from Mahadev Book.
               </li>
               <li>
-                🛡️ <strong className="text-gold">Enable 2FA:</strong> Add an extra layer of protection with two-factor authentication.
+                🛡️ <strong className="text-gold">Use Available Security Features:</strong> Enable any additional verification options offered on your account, such as OTP confirmation.
               </li>
             </ul>
           </div>

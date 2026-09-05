@@ -5,9 +5,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Mahadev Book Online – Trusted Safe Betting Platform Since 2015",
+  title: "Mahadev Book Online – Cricket ID & Sports Betting Platform",
   description:
-    "Mahadev Book Online is India's most trusted betting platform since 2015. Enjoy cricket, football, casino games, fantasy sports, instant withdrawals, and 24/7 support.",
+    "Mahadev Book Online provides cricket, football, casino games, and fantasy sports access with UPI-friendly payments and WhatsApp support.",
   keywords: [
     "Mahadev Book Online",
     "Mahadevbook",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     canonical: "https://mahadevbooks.today/mahadev-book-online/",
   },
   openGraph: {
-    title: "Mahadev Book Online – Trusted Safe Betting Platform Since 2015",
+    title: "Mahadev Book Online – Cricket ID & Sports Betting Platform",
     description:
-      "Mahadev Book Online is India's most trusted betting platform since 2015. Cricket, casino games, fantasy sports, and instant withdrawals.",
+      "Mahadev Book Online provides cricket, casino games, fantasy sports, and account support for users seeking a clear betting ID experience.",
     url: "https://mahadevbooks.today/mahadev-book-online/",
     type: "website",
     images: [
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
         url: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online.jpg",
         width: 1200,
         height: 630,
-        alt: "Mahadev Book Online – Trusted Betting Platform",
+        alt: "Mahadev Book Online – Betting Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mahadev Book Online | Safe & Trusted Betting Since 2015",
+    title: "Mahadev Book Online | Cricket ID & Sports Betting",
     description:
-      "Join Mahadev Book Online – India's #1 betting platform. Cricket, casino, fantasy sports & instant payouts.",
+      "Join Mahadev Book Online for cricket, casino, fantasy sports, and account support through official channels.",
     images: [
       "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online.jpg",
     ],
@@ -70,15 +70,15 @@ export default function MahadevBookOnline() {
         {/* Section 1: H1 Title & Intro */}
         <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg space-y-6">
           <h1 className="text-2xl md:text-4xl font-extrabold text-gold leading-tight tracking-wide uppercase text-center">
-            Mahadev Book Online – Trusted Platform for Safe &amp; Smart Betting
+            Mahadev Book Online – Cricket ID &amp; Sports Betting Platform
           </h1>
           <div className="w-16 h-0.5 bg-gold mx-auto" />
           <div className="space-y-4 max-w-4xl mx-auto text-gray-300 text-sm md:text-base leading-relaxed">
             <p>
-              <strong className="text-gold">Mahadev Book Online</strong>, also known as <strong className="text-gold">Mahadevbook</strong> was established in 2015. It is a reputed and leading name in the world of legal and responsible betting in India. We bring you a cutting-edge online betting platform that combines secure transactions, real-time sports coverage, fast payouts, and unmatched customer support. Whether you&apos;re passionate about cricket, football, or online casino games, Mahadevbook is your one-stop solution for a thrilling betting experience.
+              <strong className="text-gold">Mahadev Book Online</strong>, also known as <strong className="text-gold">Mahadevbook</strong>, provides account-based access to online sports betting and related games for users in India. The platform combines cricket and other sports markets, casino options, and support channels so you can register, log in, and manage deposits with clearer guidance.
             </p>
             <p>
-              With an active community of thousands of users, <strong className="text-gold">Mahadev betting</strong> has quickly emerged as one of the most trusted platforms for enthusiasts who seek both fun and profit.
+              <strong className="text-gold">Mahadev betting</strong> is built around a personal Mahadev Book ID: create an account, fund it with supported payment methods, and place bets only where online sports betting is permitted for you.
             </p>
           </div>
         </section>
@@ -260,13 +260,13 @@ export default function MahadevBookOnline() {
                 We believe in rewarding our users. That’s why <strong>Mahadev book</strong> offers exciting bonuses and seasonal promotions, including:
               </p>
               <ul className="space-y-2 text-xs md:text-sm text-gray-300 list-disc pl-5">
-                <li><strong>Welcome Bonus</strong> for new users</li>
-                <li><strong>Referral Rewards</strong> when you invite friends</li>
-                <li><strong>Loyalty Programs</strong> for returning players</li>
-                <li><strong>Event-Specific Offers</strong> during IPL, FIFA, etc.</li>
+                <li><strong>Welcome offers</strong> for new users when available</li>
+                <li><strong>Referral rewards</strong> when you invite friends (terms apply)</li>
+                <li><strong>Loyalty or returning-player offers</strong> when listed</li>
+                <li><strong>Event-specific offers</strong> during major sports seasons such as IPL</li>
               </ul>
               <p className="text-gray-300 text-sm pt-2">
-                Stay tuned through the app or website for the latest offers and cashback deals.
+                Current promotions, where available, are subject to eligibility requirements and promotion terms. Confirm details with support before depositing.
               </p>
               <div className="pt-2">
                 <a

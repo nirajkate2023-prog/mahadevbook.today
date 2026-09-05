@@ -6,14 +6,13 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 export const metadata: Metadata = {
   title: "Register on Mahadev Book – Get Your Cricket ID in 2 Minutes",
   description:
-    "Register on Mahadev Book and get your online cricket betting ID instantly. Claim 100% welcome bonus up to ₹10,000, free ₹500 bet, and 10% weekly cashback. Sign up now!",
+    "Register on Mahadev Book and get your online cricket betting ID. Learn how account signup works and how to access sports and casino markets. Sign up via the official site or WhatsApp support.",
   keywords: [
     "Mahadev Book register",
     "Mahadev Book signup",
     "get Mahadev Book ID",
     "online cricket ID registration",
     "cricket betting signup India",
-    "Mahadev Book welcome bonus",
   ],
   alternates: {
     canonical: "https://mahadevbooks.today/register/",
@@ -25,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Register on Mahadev Book – Get Your Cricket ID in 2 Minutes",
     description:
-      "Sign up and get your Mahadev Book cricket ID instantly. 100% welcome bonus up to ₹10,000 for new users. Register now!",
+      "Sign up and get your Mahadev Book cricket ID. Create your account through the official website or support channels.",
     url: "https://mahadevbooks.today/register/",
     type: "website",
     images: [
@@ -41,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Register on Mahadev Book | Get Your Cricket Betting ID",
     description:
-      "Create your Mahadev Book account in 2 minutes. Get welcome bonus, free bets and instant cricket ID access.",
+      "Create your Mahadev Book account and get cricket ID access through the official registration process.",
   },
 };
 
@@ -127,44 +126,44 @@ export default function Register() {
                 Join Mahadev Book Today!
               </h1>
               <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                Sign up now to claim your exclusive welcome bonus and start your winning journey!
+                Create your Mahadev Book account to access cricket betting, sports markets, and casino games through your personal ID.
               </p>
             </div>
 
             <div className="space-y-4">
               <div className="space-y-1">
                 <h3 className="text-lg md:text-xl font-bold text-gold font-heading">
-                  Exclusive Offers for New Users
+                  How Registration Works
                 </h3>
                 <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                  At Mahadev Book, we reward our new members with unbeatable bonuses to kickstart their betting adventure. Sign up today and unlock these exciting offers!
+                  Share your basic details through the official website or WhatsApp support. Once your Mahadev Book ID is created, you can log in, deposit using supported payment methods, and start browsing available markets.
                 </p>
               </div>
 
               <div className="space-y-1">
                 <h3 className="text-lg md:text-xl font-bold text-gold font-heading">
-                  100% Welcome Bonus Up to ₹10,000
+                  Current Promotions
                 </h3>
                 <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                  Double your first deposit with our generous welcome bonus! Deposit ₹10,000 and get an additional ₹10,000 to bet on your favorite sports or casino games.
+                  Current promotions, where available, are subject to applicable eligibility requirements and promotion terms. Ask support for the latest offers before depositing.
                 </p>
               </div>
 
               <div className="space-y-1">
                 <h3 className="text-lg md:text-xl font-bold text-gold font-heading">
-                  Free ₹500 Bet on Signup
+                  Age and Eligibility
                 </h3>
                 <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                  Register now and receive a free ₹500 bet to explore our wide range of sports betting markets or try your luck at our thrilling casino games.
+                  You must be 18+ (or the legal age where you live) and only use Mahadev Book where online sports betting is permitted. Review our Terms and Responsible Gaming pages before registering.
                 </p>
               </div>
 
               <div className="space-y-1">
                 <h3 className="text-lg md:text-xl font-bold text-gold font-heading">
-                  Weekly Cashback of 10%
+                  Need Help Signing Up?
                 </h3>
                 <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                  Enjoy peace of mind with our 10% weekly cashback offer. Get a portion of your losses back every week to keep the excitement going!
+                  Contact support on WhatsApp if you need help creating your ID, verifying details, or understanding deposit and withdrawal options.
                 </p>
               </div>
             </div>

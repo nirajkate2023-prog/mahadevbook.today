@@ -24,7 +24,7 @@ export default function FAQAccordion() {
     {
       question: "Is Mahadev Book a legal and safe platform?",
       answer:
-        "Yes, Mahadev Book uses certified RNG technology, encryption protocols, and operates under strict compliance to offer fair, legal, and secure online betting in India.",
+        "Mahadev Book uses encryption on its website connections and account-security practices intended to protect users. You must be of legal age and only use the service where online sports betting is permitted. Review our Terms and Responsible Gaming pages for details.",
     },
     {
       question: "Can I use Mahadev Book on mobile devices?",

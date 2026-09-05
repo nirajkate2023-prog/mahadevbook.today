@@ -128,10 +128,10 @@ export default function PrivacyPolicy() {
               Users privacy and security are our top priorities. We employ:
             </p>
             <ul className="space-y-2 pl-6 text-sm text-gray-300 list-disc">
-              <li>SSL encryption for secure communication.</li>
-              <li>Two-factor authentication (2FA) on account access.</li>
-              <li>Certified RNG (Random Number Generator) technology for fair gaming.</li>
-              <li>Regular security audits and real-time threat monitoring.</li>
+              <li>SSL encryption for secure communication where available.</li>
+              <li>Additional account verification options when offered (such as OTP).</li>
+              <li>Industry-standard practices intended to protect account access and transaction data.</li>
+              <li>Ongoing review of platform security as systems and threats evolve.</li>
             </ul>
           </div>
 

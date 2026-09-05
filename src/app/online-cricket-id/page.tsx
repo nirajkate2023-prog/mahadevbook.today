@@ -8,7 +8,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Online Cricket ID | Get Cricket Betting ID Instantly | Mahadev Book",
   description:
-    "Get your Online Cricket ID from Mahadev Book in just 1 minute. Enjoy free first bet, welcome bonuses, IPL fantasy leagues, 1000+ casino games, and instant ID activation.",
+    "Get your Online Cricket ID from Mahadev Book. Access cricket betting, IPL markets, fantasy contests, and casino games. Instant ID support via WhatsApp.",
   keywords: [
     "online cricket ID",
     "cricket ID online",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Online Cricket ID | Get Cricket Betting ID Instantly | Mahadev Book",
     description:
-      "Get your Online Cricket ID from Mahadev Book in just 1 minute. Enjoy free first bet, welcome bonuses, and IPL fantasy leagues.",
+      "Get your Online Cricket ID from Mahadev Book. Access cricket betting, IPL markets, and fantasy contests with support via WhatsApp.",
     url: "https://mahadevbooks.today/online-cricket-id/",
     type: "website",
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Get Your Online Cricket ID Instantly | Mahadev Book",
     description:
-      "Get your Online Cricket ID from Mahadev Book in 1 minute. Free first bet + welcome bonus!",
+      "Get your Online Cricket ID from Mahadev Book. Cricket betting, IPL markets, and fantasy access through official support.",
     images: [
       "https://mahadevbooks.today/wp-content/uploads/2025/04/cricket-id-online.jpg",
     ],
@@ -57,7 +57,7 @@ const serviceJsonLd = {
     url: "https://mahadevbooks.today",
   },
   description:
-    "Get an instant Online Cricket ID from Mahadev Book. Enjoy fantasy cricket, live betting, IPL leagues, casino games, and exclusive welcome bonuses.",
+    "Get an Online Cricket ID from Mahadev Book for fantasy cricket, live betting, IPL markets, and casino games where available.",
   areaServed: "IN",
   serviceType: "Online Cricket Betting ID",
 };
@@ -90,7 +90,7 @@ export default function OnlineCricketId() {
         {/* Section 1: H1 Title */}
         <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] text-center shadow-lg">
           <h1 className="text-2xl md:text-4xl font-extrabold text-gold leading-tight tracking-wide uppercase">
-            Get Your Online Cricket ID Fast for Exciting Bonuses!
+            Get Your Online Cricket ID from Mahadev Book
           </h1>
         </section>
 
@@ -111,36 +111,36 @@ export default function OnlineCricketId() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 text-left">
               {[
                 {
-                  title: "✅ Instant ID Creation – Get Cricket ID Online in 1 Minute",
-                  desc: "No delays! Complete your simple registration and receive your Online Cricket ID instantly. Start playing right away without any hassle.",
+                  title: "✅ Instant ID Creation – Get Cricket ID Online Quickly",
+                  desc: "Complete a simple registration through the official site or WhatsApp support and receive your Online Cricket ID so you can start browsing markets.",
                 },
                 {
-                  title: "✅ Exciting Bonuses and Offers",
-                  desc: "New users enjoy a welcome bonus and first bet free. Plus, grab daily offers, cashback, and festive promotions to boost your gameplay.",
+                  title: "✅ Promotions When Available",
+                  desc: "New users may be eligible for promotions subject to eligibility and terms. Ask support for current offers before depositing.",
                 },
                 {
                   title: "✅ Affordable Cricket ID Online",
-                  desc: "Our Cricket IDs are priced reasonably so that everyone, from beginners to seasoned players, can enjoy fantasy sports without breaking the bank.",
+                  desc: "Cricket IDs are set up so beginners and experienced players can access fantasy sports and betting markets without unnecessary complexity.",
                 },
                 {
-                  title: "✅ First Bet Free",
-                  desc: "Experience the thrill of your first bet absolutely free. It’s the perfect head start to your fantasy journey with zero risks involved.",
+                  title: "✅ Clear Account Access",
+                  desc: "Once your ID is created, log in from the official Login page, deposit using supported methods, and manage your account from the dashboard.",
                 },
                 {
-                  title: "✅ Big Leaderboard Prizes",
-                  desc: "Climb the leaderboard and win huge cash prizes daily, weekly, and monthly. The more you play, the higher your chances of winning big!",
+                  title: "✅ Contests and Leaderboards",
+                  desc: "Join available contests and leaderboards when offered. Prize structures and rules vary by event — always read the terms first.",
                 },
                 {
                   title: "✅ Create Your Dream Team with Cricket ID Online",
-                  desc: "Use your Cricket ID to enter fantasy leagues, pick your favorite players, and build your winning dream team.",
+                  desc: "Use your Cricket ID to enter fantasy leagues, pick your favorite players, and build your team for listed contests.",
                 },
                 {
                   title: "✅ Multiple Betting Options",
-                  desc: "Bet on international cricket, local tournaments, IPL fantasy matches, and much more. You’ll never run out of exciting games to bet on!",
+                  desc: "Bet on international cricket, local tournaments, IPL markets, and other sports where markets are listed.",
                 },
                 {
-                  title: "✅ 1000+ Live Casino Games",
-                  desc: "Apart from cricket, indulge in 1000+ live casino games like roulette, poker, blackjack, and slots for non-stop entertainment.",
+                  title: "✅ Live Casino Games",
+                  desc: "In addition to cricket, explore live casino games such as roulette, poker, blackjack, and slots where available on the platform.",
                 },
               ].map((feature, i) => (
                 <div key={i} className="bg-black/40 border border-gold/10 p-5 rounded-xl space-y-2">
@@ -180,11 +180,11 @@ export default function OnlineCricketId() {
                 <strong className="text-gold">Step 3:</strong> Fill in basic details
               </li>
               <li>
-                <strong className="text-gold">Step 4:</strong> Complete verification and receive your <strong>Online Cricket ID within 1 minute</strong>!
+                <strong className="text-gold">Step 4:</strong> Complete verification and receive your <strong>Online Cricket ID</strong>
               </li>
             </ol>
             <p className="text-center text-xs text-gray-400 font-semibold mt-4">
-              It’s quick, easy, and 100% secure.
+              Keep your login details private and only use the official Mahadev Book website.
             </p>
           </div>
         </section>
@@ -196,7 +196,7 @@ export default function OnlineCricketId() {
           </h2>
           <div className="w-16 h-0.5 bg-gold mx-auto" />
           <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
-            Don&apos;t miss the action. Get your <strong>Online Cricket ID</strong> from <strong>Mahadev Book</strong> today and explore a world full of thrilling cricket matches, fantasy sports, live casino games, and massive rewards. Create your dream team, place your bets, and grab amazing bonuses now!
+            Don&apos;t miss the action. Get your <strong>Online Cricket ID</strong> from <strong>Mahadev Book</strong> to explore cricket matches, fantasy sports, live casino games, and listed promotions. Create your dream team, place bets within your budget, and review current offers with support before you deposit.
           </p>
           <div className="pt-2">
             <a

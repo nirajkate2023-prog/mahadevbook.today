@@ -1,0 +1,12 @@
+# Serve static SEO files before any WordPress/PHP rewrite rules
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^sitemap\.xml$ - [L]
+  RewriteRule ^robots\.txt$ - [L]
+</IfModule>
+
+# Ensure XML/text are served with correct MIME types
+<IfModule mod_mime.c>
+  AddType application/xml .xml
+  AddType text/plain .txt
+</IfModule>
