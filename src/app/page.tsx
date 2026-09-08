@@ -7,12 +7,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Mahadev Book",
-  url: "https://mahadevbooks.today",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: "https://mahadevbooks.today/?s={search_term_string}",
-    "query-input": "required name=search_term_string",
-  },
+  url: "https://mahadevbooks.today/",
 };
 
 const organizationJsonLd = {

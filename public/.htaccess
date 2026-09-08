@@ -1,8 +1,27 @@
-# Serve static SEO files before any WordPress/PHP rewrite rules
+# SEO: canonical host + cleanup of duplicate / legacy URLs
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # Serve static SEO files before other rewrite rules
   RewriteRule ^sitemap\.xml$ - [L]
   RewriteRule ^robots\.txt$ - [L]
+
+  # Force HTTPS + non-www (single canonical host)
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+  # /index.html → /
+  RewriteRule ^index\.html$ / [L,R=301]
+
+  # Old WordPress leftovers → useful pages (stop 404 crawl waste)
+  RewriteRule ^feed/?$ /blog/ [L,R=301]
+  RewriteRule ^category/.*$ /blog/ [L,R=301]
+  RewriteRule ^tag/.*$ /blog/ [L,R=301]
+  RewriteRule ^author/.*$ / [L,R=301]
+  RewriteRule ^wp-admin/?$ / [L,R=301]
+  RewriteRule ^comments/feed/?$ /blog/ [L,R=301]
 </IfModule>
 
 # Ensure XML/text are served with correct MIME types

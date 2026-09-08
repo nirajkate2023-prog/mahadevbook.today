@@ -3,16 +3,17 @@ import Link from "next/link";
 export default function Footer() {
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/about-us" },
-    { name: "Cricket Betting Guide", href: "/cricket-betting-guide" },
-    { name: "IPL Betting Guide", href: "/ipl-betting-guide" },
-    { name: "UPI Payment Guide", href: "/upi-payment-guide" },
-    { name: "FAQs", href: "/faqs" },
-    { name: "Responsible Gaming", href: "/responsible-gaming" },
-    { name: "Terms & Conditions", href: "/terms-and-conditions" },
-    { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Blog", href: "/blog" },
-    { name: "Online Cricket ID", href: "/online-cricket-id" },
+    { name: "About Us", href: "/about-us/" },
+    { name: "Online Cricket ID", href: "/online-cricket-id/" },
+    { name: "Mahadev Book Online", href: "/mahadev-book-online/" },
+    { name: "Cricket Betting Guide", href: "/cricket-betting-guide/" },
+    { name: "IPL Betting Guide", href: "/ipl-betting-guide/" },
+    { name: "UPI Payment Guide", href: "/upi-payment-guide/" },
+    { name: "FAQs", href: "/faqs/" },
+    { name: "Blog", href: "/blog/" },
+    { name: "Responsible Gaming", href: "/responsible-gaming/" },
+    { name: "Terms & Conditions", href: "/terms-and-conditions/" },
+    { name: "Privacy Policy", href: "/privacy-policy/" },
   ];
 
   const socialLinks = [
@@ -137,16 +138,16 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between text-center sm:text-left text-sm text-gray-400 gap-4">
           <p>Copyright © 2026 Official Mahadev Book | All Rights Reserved | 18+ Only</p>
           <div className="flex gap-6 text-xs">
-            <Link href="/privacy-policy" className="hover:text-gold transition-colors">
+            <Link href="/privacy-policy/" className="hover:text-gold transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms-and-conditions" className="hover:text-gold transition-colors">
+            <Link href="/terms-and-conditions/" className="hover:text-gold transition-colors">
               Terms &amp; Conditions
             </Link>
-            <Link href="/responsible-gaming" className="hover:text-gold transition-colors">
+            <Link href="/responsible-gaming/" className="hover:text-gold transition-colors">
               Responsible Gaming
             </Link>
-            <Link href="/about-us" className="hover:text-gold transition-colors">
+            <Link href="/about-us/" className="hover:text-gold transition-colors">
               About Us
             </Link>
           </div>
