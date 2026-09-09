@@ -262,7 +262,7 @@ export default function CricketBettingGuide() {
             Ready to Start Betting?
           </h2>
           <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto">
-            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> from Mahadev Book and access live cricket betting markets, IPL fantasy leagues, and secure UPI payments — all in one place.
+            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> from <a href="/" className="text-gold font-semibold hover:underline">Mahadev Books</a> and access live cricket betting markets, IPL fantasy leagues, and secure UPI payments — all in one place.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

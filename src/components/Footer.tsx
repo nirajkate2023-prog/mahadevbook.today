@@ -71,10 +71,10 @@ export default function Footer() {
           {/* Section 1: About & Location */}
           <div className="space-y-6">
             <h3 className="text-xl font-bold border-l-4 border-gold pl-3 text-white uppercase tracking-wider">
-              Mahadev Book
+              Mahadev Books
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Mahadev Book is a leading online sports betting and cricket ID platform serving users across India. Enjoy live cricket, fantasy sports, and casino games with secure UPI payments and 24/7 support.
+              Mahadev Books is a leading online sports betting and cricket ID platform serving users across India. Enjoy live cricket, fantasy sports, and casino games with secure UPI payments and 24/7 support.
             </p>
             <div className="pt-4 space-y-3">
               <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/30 text-gold text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-full">
@@ -136,7 +136,7 @@ export default function Footer() {
 
         {/* Below Footer: Copyright */}
         <div className="flex flex-col sm:flex-row items-center justify-between text-center sm:text-left text-sm text-gray-400 gap-4">
-          <p>Copyright © 2026 Official Mahadev Book | All Rights Reserved | 18+ Only</p>
+          <p>Copyright © 2026 Official Mahadev Books | All Rights Reserved | 18+ Only</p>
           <div className="flex gap-6 text-xs">
             <Link href="/privacy-policy/" className="hover:text-gold transition-colors">
               Privacy Policy

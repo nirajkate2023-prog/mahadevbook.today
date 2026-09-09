@@ -267,7 +267,7 @@ export default function IplBettingGuide() {
             Access IPL Betting Markets Today
           </h2>
           <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto">
-            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> and explore live IPL betting markets, fantasy cricket leagues, and instant UPI deposits — all through Mahadev Book.
+            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> and explore live IPL betting markets, fantasy cricket leagues, and instant UPI deposits — all through <a href="/" className="text-gold font-semibold hover:underline">Mahadev Books</a>.
           </p>
           <a
             href="https://wa.me/+919864360936"
