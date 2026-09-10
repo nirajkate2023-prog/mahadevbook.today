@@ -1,74 +1,50 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+
+export const metadata = {
+  title: "Page Not Found | Mahadev Books Online",
+  description: "The page you are looking for does not exist. Return to the Mahadev Books homepage.",
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
-  const links = [
-    { label: "Home", href: "/" },
-    { label: "Cricket Betting Guide", href: "/cricket-betting-guide" },
-    { label: "IPL Betting Guide", href: "/ipl-betting-guide" },
-    { label: "Online Cricket ID", href: "/online-cricket-id" },
-    { label: "Blog", href: "/blog" },
-    { label: "FAQs", href: "/faqs" },
-    { label: "Responsible Gaming", href: "/responsible-gaming" },
-  ];
-
   return (
     <>
       <Header />
-      <main className="bg-black text-white min-h-[70vh] flex items-center justify-center px-4 py-16">
-        <div className="max-w-2xl mx-auto text-center space-y-8">
-          {/* 404 number */}
-          <div className="space-y-2">
-            <p className="text-[120px] md:text-[160px] font-extrabold text-gold/20 leading-none select-none">
-              404
-            </p>
-            <h1 className="text-2xl md:text-4xl font-extrabold text-gold -mt-6">
-              Page Not Found
-            </h1>
-            <p className="text-gray-400 text-sm md:text-base max-w-md mx-auto">
-              The page you&apos;re looking for doesn&apos;t exist or has been moved. Use the links below to find what you need.
-            </p>
-          </div>
-
-          {/* Quick links */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-lg mx-auto">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="flex items-center gap-2 bg-[#0c0c0e] border border-gold/15 hover:border-gold/50 rounded-xl px-4 py-3 text-sm text-gray-300 hover:text-gold transition-all duration-200"
-              >
-                <span className="text-gold">→</span>
-                {link.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* CTA */}
-          <div className="pt-4 space-y-3">
-            <p className="text-gray-500 text-sm">
-              Need help? Our support team is available 24/7.
-            </p>
+      <main className="bg-black text-white min-h-[70vh] flex items-center justify-center py-20 px-4">
+        <div className="max-w-3xl mx-auto text-center space-y-8">
+          <h1 className="text-6xl md:text-8xl font-extrabold text-gold tracking-tight">404</h1>
+          <h2 className="text-2xl md:text-4xl font-bold uppercase tracking-wider text-gray-200">
+            Oops! Page Not Found
+          </h2>
+          <div className="w-24 h-1 bg-gold mx-auto" />
+          <p className="text-gray-400 text-lg md:text-xl max-w-xl mx-auto">
+            It looks like the page you are looking for has been moved, deleted, or does not exist. 
+            Don't worry, you can easily find your way back to the action.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
+            <Link
+              href="/"
+              className="w-full sm:w-auto inline-block bg-gold hover:bg-white text-black px-8 py-4 rounded-full font-bold uppercase tracking-wider transition-all shadow-[0_0_15px_rgba(212,175,55,0.4)]"
+            >
+              Return Home
+            </Link>
             <a
               href="https://wa.me/+919864360936"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-transparent hover:bg-gold text-gold hover:text-black border-2 border-gold px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wider transition-all duration-200"
+              className="w-full sm:w-auto inline-block bg-transparent hover:bg-gold text-gold hover:text-black border border-gold px-8 py-4 rounded-full font-bold uppercase tracking-wider transition-all"
             >
-              Chat With Support
+              Contact Support
             </a>
           </div>
-
-          <p className="text-xs text-gray-700">
-            18+ only. Please bet responsibly.{" "}
-            <Link href="/responsible-gaming" className="hover:text-gold underline">
-              Responsible Gaming
-            </Link>
-          </p>
         </div>
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }

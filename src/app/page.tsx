@@ -68,6 +68,13 @@ const homeFaqJsonLd = {
         "@type": "Answer",
         text: "Absolutely. Mahadev Book offers a fully optimized mobile website and a downloadable app for Android and iOS, allowing you to bet anytime, anywhere.",
       },
+    {
+      "@type": "Question",
+      name: "How do deposits and withdrawals work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Deposits can be made instantly via UPI (Google Pay, PhonePe, Paytm), Net Banking, or Credit/Debit cards. Withdrawals are processed 24/7 with instant payout capabilities directly to your bank account or verified e-wallet, with no daily limits.",
+      },
     },
   ],
 };
@@ -196,9 +203,9 @@ export default function Home() {
         {/* Section 3: Login & Registration Intro */}
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-10">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+            <h3 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
               Mahadev Book Login And Registration
-            </h2>
+            </h3>
             <p className="text-gray-300 text-base md:text-lg mt-4">
               Using Mahadev Book Web App you started quickly and easily. This is the process of registration and login:
             </p>
@@ -280,9 +287,9 @@ export default function Home() {
         {/* Section 4: Get ID in 2 Minutes */}
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-8">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+            <h3 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
               How to Get Mahadev Book ID in 2 Minute
-            </h2>
+            </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
 
@@ -317,9 +324,9 @@ export default function Home() {
         <section className="max-w-7xl mx-auto border border-gold rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-black shadow-lg">
           {/* Pill Shaped Title */}
           <div className="max-w-2xl mx-auto border border-gold rounded-full py-2.5 px-4 sm:px-8 bg-black text-center mb-8 sm:mb-12 shadow-md">
-            <h2 className="text-base sm:text-lg md:text-2xl font-bold text-white uppercase tracking-wider">
+            <h3 className="text-base sm:text-lg md:text-2xl font-bold text-white uppercase tracking-wider">
               Top Sports to Bet on Mahadev Book
-            </h2>
+            </h3>
           </div>
 
           <div className="space-y-8">
@@ -407,9 +414,9 @@ export default function Home() {
             </div>
             {/* Right */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-              <h2 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-gold leading-tight tracking-wide">
+              <h3 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-gold leading-tight tracking-wide">
                 Download Mahadev Betting App – Bet Anytime, Anywhere!
-              </h2>
+              </h3>
               <p className="text-gray-300 text-sm md:text-base leading-relaxed">
                 Looking for the latest <a href="#" className="text-gold font-bold hover:underline text-base md:text-lg">Mahadev Book App</a>? The Mahadev Book APK is designed to deliver a fast and secure mobile experience with easy account access, live notifications, and smooth performance. Compatible with Android and iOS, the app helps users stay connected anytime, anywhere.
               </p>
@@ -440,9 +447,9 @@ export default function Home() {
         {/* Section 7: Top Casino Games */}
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+            <h3 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
               Top Casino Games on Mahadev Book Online
-            </h2>
+            </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
 
@@ -480,9 +487,9 @@ export default function Home() {
         {/* Section 8: Fantasy Cricket */}
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+            <h3 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
               Fantasy Cricket with Mahadev Book
-            </h2>
+            </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
 
@@ -503,9 +510,9 @@ export default function Home() {
         {/* Section 9: Promotions */}
         <section className="max-w-7xl mx-auto border border-black rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#ffca61] text-black shadow-lg">
           <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-black uppercase tracking-wider font-heading">
+            <h3 className="text-2xl md:text-4xl font-extrabold text-black uppercase tracking-wider font-heading">
               Bonuses, Leaderboard Prizes &amp; Promotions
-            </h2>
+            </h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -545,9 +552,9 @@ export default function Home() {
         {/* Section 10: Payment Options */}
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+            <h3 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
               Payment Options for Deposits and Withdrawals
-            </h2>
+            </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
 

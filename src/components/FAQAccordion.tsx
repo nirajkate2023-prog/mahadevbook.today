@@ -31,6 +31,11 @@ export default function FAQAccordion() {
       answer:
         "Absolutely. Mahadev Book offers a fully optimized mobile website and a downloadable app for Android and iOS, allowing you to bet anytime, anywhere.",
     },
+    {
+      question: "How do deposits and withdrawals work?",
+      answer:
+        "Deposits can be made instantly via UPI (Google Pay, PhonePe, Paytm), Net Banking, or Credit/Debit cards. Withdrawals are processed 24/7 with instant payout capabilities directly to your bank account or verified e-wallet, with no daily limits.",
+    },
   ];
 
   const toggleFAQ = (index: number) => {

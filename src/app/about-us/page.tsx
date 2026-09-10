@@ -58,10 +58,10 @@ export default function AboutUs() {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-gold font-heading border-l-4 border-gold pl-3">
-              Who We Are
+              Who We Are & Operating History
             </h2>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Mahadev Book focuses on account-based access for online betting. Users receive a Mahadev Book ID, deposit through supported payment methods such as UPI, and place bets on available events. We aim to keep the process clear: how to get an ID, how to log in, and how to contact support when you need help.
+              Founded with the vision of providing a transparent and user-friendly betting environment, <strong className="text-gold">Mahadev Book</strong> has been operating securely for several years, serving a growing community of sports enthusiasts across India. Our core focus is on account-based access for online betting. Users receive a Mahadev Book ID, deposit through supported payment methods such as UPI, and place bets on available events. We aim to keep the process clear: how to get an ID, how to log in, and exactly how to contact our 24/7 dedicated support team when you need help.
             </p>
           </div>
 
@@ -119,11 +119,18 @@ export default function AboutUs() {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-bold text-gold font-heading border-l-4 border-gold pl-3">
-              Customer Support
+              Official Customer Support Contacts
             </h2>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              Support is available via WhatsApp for ID creation, login help, deposits, and withdrawals. You can also review common answers on the{" "}
-              <a href="/faqs" className="text-gold hover:underline">FAQs</a> page.
+              We believe in 100% transparency and accessibility. Support is available 24/7 via WhatsApp for ID creation, login help, deposits, and withdrawals. 
+            </p>
+            <ul className="space-y-2 pl-6 text-sm text-gray-300 list-disc">
+              <li><strong className="text-white">Official WhatsApp Support:</strong> +91-9864360936</li>
+              <li><strong className="text-white">Email Inquiries:</strong> support@mahadevbooks.today</li>
+              <li><strong className="text-white">Operating Hours:</strong> 24 Hours, 7 Days a Week</li>
+            </ul>
+            <p className="text-gray-300 text-sm md:text-base leading-relaxed mt-2">
+              You can also review common answers on our <a href="/faqs" className="text-gold hover:underline">FAQs</a> page.
             </p>
           </div>
 
