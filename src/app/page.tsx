@@ -116,7 +116,7 @@ export default function Home() {
             {/* Left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-gold leading-tight tracking-wide uppercase">
-                Welcome to Mahadev Books Online
+                Mahadev Book Online Cricket ID & Betting Platform
               </h1>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
                 Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, an online sports betting and cricket ID platform. Register for an account, log in securely, and access cricket, other sports, and casino markets through a clear signup process.
