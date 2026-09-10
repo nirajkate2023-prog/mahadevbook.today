@@ -5,9 +5,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Cricket Betting Guide – How Online Cricket Betting Works",
+  title: "Top #1 Guide to Online Cricket Betting | Mahadev Books",
   description:
-    "A complete cricket betting guide for beginners. Learn how cricket betting odds work, types of bets, how to read markets, and tips for responsible betting in India.",
+    "Mahadev Books provides the Best Cricket Betting Guide & Odds Explanation Online with 24x7 Support ✈️ Fast & Secure Betting Tips Worldwide!",
   alternates: {
     canonical: "https://mahadevbooks.today/cricket-betting-guide/",
   },

@@ -5,9 +5,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "IPL Betting Guide – How to Bet on IPL Matches",
+  title: "Top #1 Guide to IPL Betting & Live Odds | Mahadev Books",
   description:
-    "Complete IPL betting guide: how IPL markets work, which bets to place, how to read live odds during matches, and responsible betting tips for the Indian Premier League.",
+    "Mahadev Books provides the Best IPL Betting Guide & Predictions Online with 24x7 Support 🏏 Fast & Secure Live Betting Strategies Worldwide!",
   alternates: {
     canonical: "https://mahadevbooks.today/ipl-betting-guide/",
   },

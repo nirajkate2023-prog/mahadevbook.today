@@ -23,11 +23,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://mahadevbooks.today"),
   title: {
-    default: "Mahadev Book Official | Cricket ID & Sports Betting Platform",
+    default: "Top #1 Website To Get Online Cricket ID | Mahadev Books Online",
     template: "%s | Mahadev Book",
   },
   description:
-    "Get a verified Mahadev Book Cricket ID with quick activation, secure UPI payments, live cricket betting access, and 24/7 customer support.",
+    "Mahadev Books is the Best Platform to Get your Online Cricket ID & Sports Betting ID Online with 24x7 Support 🏏 Fast & Secure UPI Withdrawals Worldwide!",
   keywords: [
     "Mahadev Book",
     "cricket betting ID",

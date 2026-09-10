@@ -5,9 +5,9 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Mahadev Book Online – Cricket ID & Sports Betting Platform",
+  title: "Top #1 Official Website for Mahadev Book Online | Play Now",
   description:
-    "Mahadev Book Online provides cricket, football, casino games, and fantasy sports access with UPI-friendly payments and WhatsApp support.",
+    "Mahadev Book Online is the Best Platform for Live Sports Betting & Casino Games Online with 24x7 Support ⚡ Fast & Free Withdrawals Worldwide!",
   keywords: [
     "Mahadev Book Online",
     "Mahadevbook",

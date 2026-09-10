@@ -6,9 +6,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Online Cricket ID | Get Cricket Betting ID Instantly | Mahadev Book",
+  title: "Top #1 Platform To Buy Online Cricket ID instantly | Mahadev Books",
   description:
-    "Get your Online Cricket ID from Mahadev Book. Access cricket betting, IPL markets, fantasy contests, and casino games. Instant ID support via WhatsApp.",
+    "Mahadev Books is one of the Best Platforms to Buy an Online Cricket ID & Betting Exchange ID Online with 24x7 Support ⚡ Fast & Instant Activation!",
   keywords: [
     "online cricket ID",
     "cricket ID online",
