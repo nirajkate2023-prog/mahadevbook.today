@@ -68,6 +68,7 @@ const homeFaqJsonLd = {
         "@type": "Answer",
         text: "Absolutely. Mahadev Book offers a fully optimized mobile website and a downloadable app for Android and iOS, allowing you to bet anytime, anywhere.",
       },
+    },
     {
       "@type": "Question",
       name: "How do deposits and withdrawals work?",
