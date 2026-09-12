@@ -8,6 +8,8 @@ export default function Footer() {
     { name: "Mahadev Book Online", href: "/mahadev-book-online/" },
     { name: "Cricket Betting Guide", href: "/cricket-betting-guide/" },
     { name: "IPL Betting Guide", href: "/ipl-betting-guide/" },
+    { name: "Odds Calculator Guide", href: "/odds-calculator-guide/" },
+    { name: "T20 Cricket Stats", href: "/t20-cricket-stats/" },
     { name: "UPI Payment Guide", href: "/upi-payment-guide/" },
     { name: "FAQs", href: "/faqs/" },
     { name: "Blog", href: "/blog/" },
