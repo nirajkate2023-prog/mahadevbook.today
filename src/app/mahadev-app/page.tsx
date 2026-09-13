@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const dynamic = "force-static";
 
@@ -51,6 +53,7 @@ export default function MahadevAppPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <Header />
       <div className="bg-black text-white min-h-screen pb-16">
         <Breadcrumb
           items={[
@@ -185,6 +188,7 @@ export default function MahadevAppPage() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
