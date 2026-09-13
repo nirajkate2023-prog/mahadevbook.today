@@ -9,6 +9,7 @@ export default function Header() {
 
   const navLinks = [
     { name: "Home", href: "/" },
+    { name: "App Download", href: "/mahadev-app" },
     { name: "About Us", href: "/about-us" },
     { name: "Blog", href: "/blog" },
     { name: "FAQs", href: "/faqs" },

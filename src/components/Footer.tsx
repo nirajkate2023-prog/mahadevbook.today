@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   const quickLinks = [
     { name: "Home", href: "/" },
+    { name: "Mahadev App / APK", href: "/mahadev-app/" },
     { name: "About Us", href: "/about-us/" },
     { name: "Online Cricket ID", href: "/online-cricket-id/" },
     { name: "Mahadev Book Online", href: "/mahadev-book-online/" },
