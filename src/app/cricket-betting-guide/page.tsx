@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Top #1 Guide to Online Cricket Betting | Mahadev Books",
   description:

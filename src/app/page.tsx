@@ -644,6 +644,34 @@ export default function Home() {
           <FAQAccordion />
         </section>
 
+        {/* Section 13: Latest Blog Posts & Guides */}
+        <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
+              Latest Guides &amp; Articles
+            </h2>
+            <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <a href="/blog/how-live-cricket-betting-odds-work/" className="block bg-black/50 border border-gold/20 rounded-xl p-6 hover:border-gold transition-colors shadow-sm">
+              <h3 className="text-gold font-bold mb-2">How Live Cricket Betting Odds Work</h3>
+              <p className="text-gray-400 text-sm">Understand the dynamics of in-play betting and shifting odds.</p>
+            </a>
+            <a href="/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/" className="block bg-black/50 border border-gold/20 rounded-xl p-6 hover:border-gold transition-colors shadow-sm">
+              <h3 className="text-gold font-bold mb-2">IPL Betting Step-by-Step Guide</h3>
+              <p className="text-gray-400 text-sm">A complete walkthrough to using your Mahadev Book ID for IPL.</p>
+            </a>
+            <a href="/blog/ipl-betting-terms-explained/" className="block bg-black/50 border border-gold/20 rounded-xl p-6 hover:border-gold transition-colors shadow-sm">
+              <h3 className="text-gold font-bold mb-2">IPL Betting Terms Explained</h3>
+              <p className="text-gray-400 text-sm">Learn the essential jargon before you start placing your bets.</p>
+            </a>
+            <a href="/blog/upi-payment-safety-guide/" className="block bg-black/50 border border-gold/20 rounded-xl p-6 hover:border-gold transition-colors shadow-sm">
+              <h3 className="text-gold font-bold mb-2">UPI Payment Safety Guide</h3>
+              <p className="text-gray-400 text-sm">Best practices for secure deposits and withdrawals via UPI.</p>
+            </a>
+          </div>
+        </section>
+
         {/* Last Updated – E-E-A-T signal */}
         <p className="text-center text-xs text-gray-600 pb-4">
           Last updated: August 2026 &nbsp;|&nbsp; <a href="/responsible-gaming" className="hover:text-gold underline">Responsible Gaming</a> &nbsp;|&nbsp; 18+ Only

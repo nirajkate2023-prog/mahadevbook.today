@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Cricket Betting Odds Explained & Calculator Guide | Mahadev Book",
   description:
@@ -136,6 +138,19 @@ export default function OddsCalculatorGuide() {
             </p>
             <p className="text-gray-300 leading-relaxed mt-4">
               If you analyze his recent form and believe he actually has a 35% chance of being the top scorer, this bet offers "value" because your estimated probability is higher than the bookmaker's implied probability.
+            </p>
+          </section>
+
+          {/* Bookmaker Margin */}
+          <section className="bg-[#0c0c0e] border border-gold/20 rounded-3xl p-8 shadow-lg">
+            <h2 className="text-2xl font-bold text-gold mb-4 font-heading border-l-4 border-gold pl-3">
+              Understanding the Bookmaker's Margin (Vig)
+            </h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              If you convert all outcomes of a match into implied probabilities and add them together, the total will always be greater than 100%. This extra percentage is known as the "vigorish" or "overround," which is the bookmaker's profit margin.
+            </p>
+            <p className="text-gray-300 leading-relaxed">
+              When calculating odds, always factor in the margin. Markets with lower margins offer better value for bettors. Tools and calculators can help you identify markets where the bookmaker has set a lower margin, maximizing your potential long-term returns.
             </p>
           </section>
 

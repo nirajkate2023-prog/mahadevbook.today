@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const dynamic = "force-static";
+
 export const metadata: Metadata = {
   title: "Ultimate T20 Cricket Stats & Records Guide | Mahadev Book",
   description:
@@ -128,6 +130,10 @@ export default function T20CricketStats() {
               <li className="flex items-start gap-3">
                 <span className="text-gold font-bold">3.</span>
                 <span><strong className="text-white">Powerplay Run Rates:</strong> Teams that statistically score higher in the first 6 overs (Powerplay) win over 65% of their T20 matches. Monitoring live powerplay stats is crucial for in-play betting.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-gold font-bold">4.</span>
+                <span><strong className="text-white">Player Form vs. Historical Data:</strong> While a player might have a great historical average at a venue, recent form (last 5 matches) is often a stronger indicator in the fast-paced T20 format. Always weigh recent strike rates heavier than career averages.</span>
               </li>
             </ul>
           </section>
