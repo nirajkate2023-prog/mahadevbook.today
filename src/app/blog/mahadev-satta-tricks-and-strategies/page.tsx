@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "Top Mahadev Satta Tricks & Strategies for T20 Cricket | 2026 Guide",
+  title: "Top Mahadev Satta Tricks for T20 Cricket",
   description:
     "Master your cricket betting ID with these proven Mahadev satta tricks. Learn how to manage your bankroll, read live T20 odds, and maximize your winnings on Mahadev Book.",
   alternates: {

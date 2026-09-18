@@ -5,14 +5,14 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "About Us – Mahadev Book | Online Cricket ID & Betting Platform",
+  title: "About Us | Mahadev Book Online Cricket ID",
   description:
     "Learn about Mahadev Book: what the platform provides, how account access works, support channels, and important eligibility information for users in India.",
   alternates: {
     canonical: "https://mahadevbooks.today/about-us/",
   },
   openGraph: {
-    title: "About Us – Mahadev Book | Online Cricket ID & Betting Platform",
+    title: "About Us | Mahadev Book Online Cricket ID",
     description:
       "Mahadev Book provides online cricket ID access, sports betting markets, casino games, and fantasy cricket with support available via WhatsApp.",
     url: "https://mahadevbooks.today/about-us/",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us – Mahadev Book | Online Cricket ID & Betting Platform",
+    title: "About Us | Mahadev Book Online Cricket ID",
     description:
       "Mahadev Book provides online cricket ID access, sports betting markets, casino games, and fantasy cricket with support available via WhatsApp.",
     images: ["https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png"],

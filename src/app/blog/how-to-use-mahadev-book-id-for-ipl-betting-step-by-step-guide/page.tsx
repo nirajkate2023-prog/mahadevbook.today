@@ -5,7 +5,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
+  title: "How to Use Mahadev Book ID for IPL Betting",
   description:
     "A complete step-by-step guide to using your Mahadev Book ID for IPL betting — from getting your ID to placing your first bet, understanding IPL markets, and making UPI deposits.",
   alternates: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/",
   },
   openGraph: {
-    title: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
+    title: "How to Use Mahadev Book ID for IPL Betting",
     description:
       "Step-by-step: get your Mahadev Book Cricket ID, deposit via UPI, navigate IPL markets, and place your first bet on the Indian Premier League.",
     url: "https://mahadevbooks.today/blog/how-to-use-mahadev-book-id-for-ipl-betting-step-by-step-guide/",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "How to Use Mahadev Book ID for IPL Betting – Step-by-Step Guide",
+  headline: "How to Use Mahadev Book ID for IPL Betting",
   description:
     "A step-by-step guide to using a Mahadev Book Cricket ID for IPL betting — account setup, UPI deposit, reading IPL markets, and placing your first bet.",
   author: {

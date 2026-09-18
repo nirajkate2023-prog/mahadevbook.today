@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 export const dynamic = "force-static";
 
 export const metadata = {
-  title: "How to Verify a Genuine Mahadev Book ID | Best Online Cricket ID",
+  title: "How to Verify a Genuine Mahadev Book ID",
   description:
     "Avoid scams by learning how to verify a genuine Mahadev Book new ID. Discover the security features of the best online cricket ID providers in India.",
   alternates: {
