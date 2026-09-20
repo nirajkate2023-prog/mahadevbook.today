@@ -44,6 +44,22 @@ export default function MahadevAppPage() {
           text: "The best Mahadev satta trick is to carefully analyze the live odds provided directly in the app. Since the mobile app updates odds in real-time, betting during the middle overs of a T20 match often provides the best value. Always manage your bankroll and avoid chasing losses.",
         },
       },
+      {
+        "@type": "Question",
+        name: "Mahadev app kya hai? (What is Mahadev App?)",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Mahadev app ek premium online sports betting aur live casino platform hai. Yaha aap live cricket match par bet laga sakte hain aur UPI ke through fast deposits and withdrawals kar sakte hain. It is India's top choice for secure betting.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is there a Mahadev App scam or case in the news?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "You may have seen news regarding unverified agents or fake clone sites involved in scams. This is exactly why you must only use official, verified providers like mahadevbooks.today. Our platform guarantees 100% genuine IDs, instant withdrawals, and absolute security, protecting you from any fake 'Mahadev betting app' scams.",
+        },
+      },
     ],
   };
 
@@ -66,13 +82,13 @@ export default function MahadevAppPage() {
           {/* Hero Section */}
           <div className="text-center mb-12 border-b border-gold/20 pb-8">
             <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
-              Download the Official <span className="text-gold">Mahadev App</span>
+              Download the Official <span className="text-gold">Mahadev Betting App</span>
             </h1>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
               Experience the thrill of live cricket betting, casino games, and
               instant UPI withdrawals directly on your phone. Whether you are looking
               for the <strong>Mahadev Book APK</strong> or our instant web-app, we have
-              you covered.
+              you covered safely.
             </p>
             <div className="mt-8">
               <a
@@ -97,7 +113,7 @@ export default function MahadevAppPage() {
               <p className="mb-4">
                 Many users search for the <strong>Mahadev Book APK</strong> to install
                 directly on their Android devices. Because Google Play restricts real-money
-                betting apps, the official Mahadev gaming app is distributed privately.
+                betting apps, the official <strong>Mahadev betting app</strong> is distributed privately.
               </p>
               <p>
                 To keep your device secure and ensure you are playing on the genuine platform,
@@ -180,6 +196,20 @@ export default function MahadevAppPage() {
                   <h3 className="text-xl font-bold text-gold mb-3">What are the best Mahadev Satta tricks for the app?</h3>
                   <p>
                     The best strategy is to carefully analyze the live odds provided directly in the app. Since the mobile app updates odds in real-time, betting during the middle overs of a T20 match often provides the best value. Always manage your bankroll and avoid chasing losses.
+                  </p>
+                </div>
+
+                <div className="bg-dark-card p-6 rounded-xl border border-gray-800">
+                  <h3 className="text-xl font-bold text-gold mb-3">Mahadev app kya hai?</h3>
+                  <p>
+                    Mahadev app ek premium online sports betting aur live casino platform hai. Yaha aap live cricket match par bet laga sakte hain aur UPI ke through fast deposits and withdrawals kar sakte hain. It is India's top choice for secure betting.
+                  </p>
+                </div>
+                
+                <div className="bg-dark-card p-6 rounded-xl border border-gray-800">
+                  <h3 className="text-xl font-bold text-gold mb-3">Is there a Mahadev App scam or case in the news?</h3>
+                  <p>
+                    You may have seen news regarding unverified agents or fake clone sites involved in scams. This is exactly why you must only use official, verified providers like <strong>mahadevbooks.today</strong>. Our platform guarantees 100% genuine IDs, instant withdrawals, and absolute security, protecting you from any fake "Mahadev betting app" scams.
                   </p>
                 </div>
               </div>
