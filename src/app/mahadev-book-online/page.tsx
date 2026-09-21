@@ -3,46 +3,19 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Breadcrumb from "@/components/Breadcrumb";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Top #1 Official Website for Mahadev Book Online | Play Now",
   description:
-    "Mahadev Book Online is the Best Platform for Live Sports Betting & Casino Games Online with 24x7 Support ⚡ Fast & Free Withdrawals Worldwide!",
+    "Learn about the Mahadev Book Online platform, including how to access it, supported devices, account setup, and platform features.",
   keywords: [
     "Mahadev Book Online",
-    "Mahadevbook",
-    "Mahadev betting",
-    "online betting India",
-    "safe betting platform",
-    "Mahadev Book app",
-    "cricket football betting India",
+    "Mahadev online platform",
+    "Mahadev betting account",
   ],
   alternates: {
     canonical: "https://mahadevbooks.today/mahadev-book-online/",
-  },
-  openGraph: {
-    title: "Mahadev Book Online – Cricket ID & Sports Betting Platform",
-    description:
-      "Mahadev Book Online provides cricket, casino games, fantasy sports, and account support for users seeking a clear betting ID experience.",
-    url: "https://mahadevbooks.today/mahadev-book-online/",
-    type: "website",
-    images: [
-      {
-        url: "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Mahadev Book Online – Betting Platform",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Mahadev Book Online | Cricket ID & Sports Betting",
-    description:
-      "Join Mahadev Book Online for cricket, casino, fantasy sports, and account support through official channels.",
-    images: [
-      "https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online.jpg",
-    ],
   },
 };
 
@@ -56,242 +29,151 @@ export default function MahadevBookOnline() {
           { label: "Mahadev Book Online" },
         ]}
       />
-      <main className="bg-black text-white py-6 px-4 sm:px-6 lg:px-8 space-y-8">
+      <main className="bg-black text-white py-6 px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Banner Image */}
         <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-gold/20">
           <img
             src="https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online.jpg"
-            alt="Mahadev Book Online Banner"
+            alt="Mahadev Book Online Platform"
             className="w-full h-auto object-cover"
             loading="eager"
           />
         </div>
 
-        {/* Section 1: H1 Title & Intro */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg space-y-6">
-          <h1 className="text-2xl md:text-4xl font-extrabold text-gold leading-tight tracking-wide uppercase text-center">
-            Mahadev Book Online – Cricket ID &amp; Sports Betting Platform
+        {/* Section 1: H1 & Intro */}
+        <section className="max-w-4xl mx-auto text-center space-y-6">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-gold leading-tight tracking-wide uppercase">
+            Mahadev Book Online
           </h1>
           <div className="w-16 h-0.5 bg-gold mx-auto" />
-          <div className="space-y-4 max-w-4xl mx-auto text-gray-300 text-sm md:text-base leading-relaxed">
-            <p>
-              <strong className="text-gold">Mahadev Book Online</strong>, also known as <strong className="text-gold">Mahadevbook</strong>, provides account-based access to online sports betting and related games for users in India. The platform combines cricket and other sports markets, casino options, and support channels so you can register, log in, and manage deposits with clearer guidance.
-            </p>
-            <p>
-              <strong className="text-gold">Mahadev betting</strong> is built around a personal Mahadev Book ID: create an account, fund it with supported payment methods, and place bets only where online sports betting is permitted for you.
-            </p>
-          </div>
+          <p className="text-gray-300 text-lg leading-relaxed">
+            Welcome to the official overview of the <strong className="text-gold">Mahadev Book Online</strong> platform. This guide explains exactly what the online service is, how you can access it, and the features available to registered users.
+          </p>
         </section>
 
-        {/* Section 2: Why Choose & Image Split */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <div className="lg:col-span-7 space-y-6 text-left">
-              <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider">
-                Why Choose Mahadev Book Online?
-              </h2>
-              <div className="w-16 h-0.5 bg-gold" />
-              <p className="text-gray-300 text-sm leading-relaxed">
-                The name <strong className="text-gold">Mahadevbook</strong> has become synonymous with <strong className="text-gold">safe betting</strong> and <strong className="text-gold">quick returns</strong>. Our platform stands out due to its:
-              </p>
-              <ul className="space-y-2 text-xs md:text-sm text-gray-300 list-disc pl-5">
-                <li><strong>Advanced security protocols</strong></li>
-                <li><strong>Seamless user experience</strong></li>
-                <li><strong>Instant deposits and withdrawals</strong></li>
-                <li><strong>Transparent and fair gaming</strong></li>
-              </ul>
-              <p className="text-gray-300 text-sm leading-relaxed pt-2">
-                Our team continuously works on improving features and interfaces to ensure you enjoy an exciting, smooth, and stress-free betting experience.
-              </p>
-              <div className="pt-2">
-                <a
-                  href="https://wa.me/+919864360936"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-transparent hover:bg-gold text-gold hover:text-black border border-gold px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-200"
-                >
-                  Get Mahadev Book ID
-                </a>
-              </div>
-            </div>
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="rounded-2xl overflow-hidden border border-gold/20 shadow-md">
-                <img
-                  src="https://mahadevbooks.today/wp-content/uploads/2025/05/Why-choose-Mahadev-Book-Online.jpg"
-                  alt="Why Choose Mahadev Book Online"
-                  className="w-full max-w-sm h-auto object-cover"
-                />
-              </div>
-            </div>
-          </div>
+        {/* Section 2: What the online platform is */}
+        <section className="max-w-5xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
+          <h2 className="text-2xl font-bold text-gold uppercase mb-4">What the Online Platform Is</h2>
+          <p className="text-gray-300 leading-relaxed mb-4">
+            Mahadev Book Online is a digital interface that connects users to sports markets and casino games. Rather than visiting a physical location, users can view live odds, manage their funds, and participate in fantasy sports entirely through their internet browser or mobile device.
+          </p>
+          <p className="text-gray-300 leading-relaxed">
+            The platform acts as a central hub for your betting ID, aggregating real-time data from sporting events around the world so you can make informed decisions.
+          </p>
         </section>
 
-        {/* Section 3: Features */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
-          <div className="text-center mb-8">
-            <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider">
-              Features of Mahadev Online Book
-            </h2>
-            <div className="w-16 h-0.5 bg-gold mx-auto mt-2" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {[
-              {
-                title: "1. Secure Betting Environment:",
-                desc: "Mahadev book online prioritizes your safety. All transactions, whether deposits or withdrawals, are conducted through highly secure payment gateways. We support UPI, PayTM, PhonePe, and net banking.",
-              },
-              {
-                title: "2. 24x7 Customer Support:",
-                desc: "Our trained support staff is available around the clock to help with account setup, payment issues, or general queries. Connect with us via WhatsApp, email, or live chat support.",
-              },
-              {
-                title: "3. Multiple Betting Options:",
-                desc: "From cricket, football, tennis, kabaddi, and even online casino games, the Mahadev betting app provides an all-in-one platform for diversified betting.",
-              },
-              {
-                title: "4. Instant Withdrawals & Unlimited Transactions:",
-                desc: "Forget waiting hours for payments! With Mahadev betting, winnings can be withdrawn instantly with no daily limits. Play and earn continuously without interruptions.",
-              },
-              {
-                title: "5. Mobile-Friendly Experience:",
-                desc: "With the Mahadev book app, you can place bets from anywhere. Our app is optimized for Android and iOS devices, ensuring responsive and lag-free betting on the go.",
-              },
-            ].map((feat, i) => (
-              <div key={i} className="border border-gold/20 rounded-xl p-5 bg-black/40 flex flex-col justify-between space-y-3">
-                <h3 className="text-gold font-bold text-sm md:text-base">{feat.title}</h3>
-                <p className="text-gray-300 text-xs md:text-sm leading-relaxed">{feat.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Section 4: Create Account */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
-          <div className="text-center mb-6">
-            <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider">
-              How to Create an Account on Mahadev Book Online
-            </h2>
-            <div className="w-16 h-0.5 bg-gold mx-auto mt-2" />
-          </div>
-
-          <div className="max-w-2xl mx-auto bg-black/40 border border-gold/10 p-6 md:p-8 rounded-xl space-y-4">
-            <p className="text-gray-300 text-sm">
-              Setting up your account for <strong>Mahadev book ID</strong> is quick and beginner-friendly. Here’s how you can get started:
+        {/* Section 3: How to access & Supported Devices */}
+        <section className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="border border-gold/30 rounded-2xl p-6 md:p-8 bg-[#0c0c0e] shadow-lg">
+            <h2 className="text-xl font-bold text-gold uppercase mb-4">How to Access It</h2>
+            <p className="text-gray-300 leading-relaxed">
+              Accessing the platform requires a verified account. Users cannot place bets anonymously. You must register through our official support channels (via WhatsApp) to receive your unique credentials. Once you have your ID and password, you can log in directly through the website interface.
             </p>
-            <ul className="space-y-4 text-xs md:text-sm text-gray-200">
-              <li>
-                <strong className="text-gold">🔹 Step 1: Visit the Official Mahadev Book Online Website</strong>
-                <p className="pl-6 text-gray-400 mt-1">Go to the official website for Mahadev Book Online. You’ll find all information related to betting IDs, supported games, and more.</p>
-              </li>
-              <li>
-                <strong className="text-gold">🔹 Step 2: Click “Get Online Cricket ID” or “Create an Account”</strong>
-                <p className="pl-6 text-gray-400 mt-1">Locate the “Get Online ID” button. Once clicked, you’ll be redirected to a secure WhatsApp chat where you can submit details.</p>
-              </li>
-              <li>
-                <strong className="text-gold">🔹 Step 3: Share Required Information</strong>
-                <p className="pl-6 text-gray-400 mt-1">To activate your Mahadev betting account, share essential details like Full Name and Email ID (for verification).</p>
-              </li>
-              <li>
-                <strong className="text-gold">🔹 Step 4: Instant ID Activation</strong>
-                <p className="pl-6 text-gray-400 mt-1">After submitting your details, your betting ID will be generated instantly. You’ll receive login credentials and links to start betting.</p>
-              </li>
+          </div>
+          <div className="border border-gold/30 rounded-2xl p-6 md:p-8 bg-[#0c0c0e] shadow-lg">
+            <h2 className="text-xl font-bold text-gold uppercase mb-4">Supported Devices</h2>
+            <ul className="list-disc pl-5 text-gray-300 space-y-2">
+              <li><strong>Smartphones:</strong> Fully optimized for both Android and iOS web browsers (Chrome, Safari, etc.).</li>
+              <li><strong>Tablets:</strong> Responsive design adapts to iPad and Android tablet screens.</li>
+              <li><strong>Desktops/Laptops:</strong> Accessible via any modern web browser on Windows or macOS for a widescreen viewing experience.</li>
             </ul>
           </div>
         </section>
 
-        {/* Section 5: Betting Options Grid */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg space-y-6">
-          <div className="text-center">
-            <h2 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider">
-              Betting Options Available on Mahadev Online Book
-            </h2>
-            <div className="w-16 h-0.5 bg-gold mx-auto mt-2" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="border border-gold/20 rounded-xl p-5 bg-black/40 text-left space-y-3">
-              <h3 className="text-gold font-bold text-base">⚽ Sports Betting</h3>
-              <ul className="text-xs md:text-sm text-gray-300 space-y-1 list-disc pl-5">
-                <li>Cricket (IPL, T20, ODIs, Test Matches)</li>
-                <li>Football (FIFA, EPL, La Liga)</li>
-                <li>Tennis, Basketball, Kabaddi, and Horse Racing</li>
-              </ul>
+        {/* Section 4: Account / Login Process */}
+        <section className="max-w-5xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
+          <h2 className="text-2xl font-bold text-gold uppercase mb-6 text-center">Account &amp; Login Process</h2>
+          <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
+            <div className="bg-black/50 p-6 rounded-xl border border-gray-700 flex-1 text-center">
+              <span className="text-gold font-bold text-xl block mb-2">1. Request ID</span>
+              <p className="text-sm text-gray-400">Contact support to register your details and receive your unique betting ID.</p>
             </div>
-            <div className="border border-gold/20 rounded-xl p-5 bg-black/40 text-left space-y-3">
-              <h3 className="text-gold font-bold text-base">🃏 Casino Gaming</h3>
-              <ul className="text-xs md:text-sm text-gray-300 space-y-1 list-disc pl-5">
-                <li>Live Dealer Games</li>
-                <li>Roulette, Blackjack, Poker</li>
-                <li>Indian favorites like Teen Patti and Andar Bahar</li>
-              </ul>
+            <div className="text-gold text-2xl hidden md:block">&rarr;</div>
+            <div className="bg-black/50 p-6 rounded-xl border border-gray-700 flex-1 text-center">
+              <span className="text-gold font-bold text-xl block mb-2">2. Secure Login</span>
+              <p className="text-sm text-gray-400">Navigate to the login portal and enter your credentials.</p>
+            </div>
+            <div className="text-gold text-2xl hidden md:block">&rarr;</div>
+            <div className="bg-black/50 p-6 rounded-xl border border-gray-700 flex-1 text-center">
+              <span className="text-gold font-bold text-xl block mb-2">3. Deposit & Play</span>
+              <p className="text-sm text-gray-400">Fund your account using supported payment methods to begin.</p>
             </div>
           </div>
+        </section>
 
-          <div className="bg-black/40 border border-gold/10 p-5 rounded-xl max-w-xl mx-auto text-center space-y-2">
-            <h4 className="text-gold font-bold text-sm md:text-base">📊 Live Betting and Real-Time Odds</h4>
-            <p className="text-xs md:text-sm text-gray-300 leading-relaxed">
-              Experience the thrill of live betting where odds change dynamically. Participate in over <strong>60,000 live events per month.</strong> Place your bets mid-match and leverage your instincts to win big!
+        {/* Section 5: Platform Features */}
+        <section className="max-w-5xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
+          <h2 className="text-2xl font-bold text-gold uppercase mb-6">Platform Features</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="bg-black/30 p-5 rounded-lg border border-gold/10">
+              <h3 className="font-bold text-white mb-2">Live Match Updates</h3>
+              <p className="text-sm text-gray-400">Follow scores and changing market odds in real-time as the match progresses.</p>
+            </div>
+            <div className="bg-black/30 p-5 rounded-lg border border-gold/10">
+              <h3 className="font-bold text-white mb-2">Multi-Market Support</h3>
+              <p className="text-sm text-gray-400">Switch seamlessly between cricket, tennis, football, and casino interfaces.</p>
+            </div>
+            <div className="bg-black/30 p-5 rounded-lg border border-gold/10">
+              <h3 className="font-bold text-white mb-2">Integrated Payments</h3>
+              <p className="text-sm text-gray-400">Manage your deposits and request withdrawals directly from your dashboard.</p>
+            </div>
+            <div className="bg-black/30 p-5 rounded-lg border border-gold/10">
+              <h3 className="font-bold text-white mb-2">24/7 Support Portal</h3>
+              <p className="text-sm text-gray-400">Access customer service representatives instantly if you encounter issues.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 6: Security & Responsible Gaming */}
+        <section className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="border border-gold/30 rounded-2xl p-6 md:p-8 bg-[#0c0c0e] shadow-lg">
+            <h2 className="text-xl font-bold text-gold uppercase mb-4">Security Information</h2>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              We implement standard web security practices to protect your login credentials and personal information. Users are advised to never share their passwords or OTPs with anyone, including support staff. Always ensure you are accessing the official URL to prevent phishing.
             </p>
           </div>
+          <div className="border border-gold/30 rounded-2xl p-6 md:p-8 bg-[#0c0c0e] shadow-lg">
+            <h2 className="text-xl font-bold text-gold uppercase mb-4">Responsible Gaming</h2>
+            <p className="text-gray-300 text-sm leading-relaxed mb-4">
+              Online betting should be for entertainment purposes only. Never bet money you cannot afford to lose.
+            </p>
+            <Link href="/responsible-gaming" className="text-gold hover:underline text-sm font-bold">
+              Read our full Responsible Gaming Policy &rarr;
+            </Link>
+          </div>
         </section>
 
-        {/* Section 6: 24/7 Support Assistance */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg text-center space-y-4">
-          <h3 className="text-xl font-bold text-gold uppercase tracking-wider">
-            24/7 Support with Dedicated Betting Assistance
-          </h3>
-          <div className="w-16 h-0.5 bg-gold mx-auto" />
-          <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-3xl mx-auto">
-            The <strong>Mahadev Betting App</strong> and website offer full-time support. Whether it’s a technical issue, payout concern, or general query, the expert team is always available to help through WhatsApp, live chat, or email.
-          </p>
-        </section>
-
-        {/* Section 7: Promo Split Section */}
-        <section className="max-w-7xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            {/* Left */}
-            <div className="lg:col-span-7 space-y-6 text-left">
-              <h3 className="text-xl md:text-2xl font-bold text-gold uppercase tracking-wider">
-                Promotions &amp; Bonuses on Mahadev Online Book
-              </h3>
-              <div className="w-16 h-0.5 bg-gold" />
-              <p className="text-gray-300 text-sm leading-relaxed">
-                We believe in rewarding our users. That’s why <strong>Mahadev book</strong> offers exciting bonuses and seasonal promotions, including:
-              </p>
-              <ul className="space-y-2 text-xs md:text-sm text-gray-300 list-disc pl-5">
-                <li><strong>Welcome offers</strong> for new users when available</li>
-                <li><strong>Referral rewards</strong> when you invite friends (terms apply)</li>
-                <li><strong>Loyalty or returning-player offers</strong> when listed</li>
-                <li><strong>Event-specific offers</strong> during major sports seasons such as IPL</li>
-              </ul>
-              <p className="text-gray-300 text-sm pt-2">
-                Current promotions, where available, are subject to eligibility requirements and promotion terms. Confirm details with support before depositing.
-              </p>
-              <div className="pt-2">
-                <a
-                  href="https://wa.me/+919864360936"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-transparent hover:bg-gold text-gold hover:text-black border border-gold px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-200"
-                >
-                  Get Mahadev Book ID
-                </a>
-              </div>
+        {/* Section 7: FAQs */}
+        <section className="max-w-5xl mx-auto border border-gold/30 rounded-2xl p-6 md:p-10 bg-[#0c0c0e] shadow-lg">
+          <h2 className="text-2xl font-bold text-gold uppercase mb-6">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div className="bg-black/50 p-4 rounded-lg border border-gray-800">
+              <h3 className="font-bold text-gold mb-2">Do I need to download software to use the online platform?</h3>
+              <p className="text-sm text-gray-300">No, the online platform is fully web-based and can be accessed through your browser without downloading any additional software.</p>
             </div>
-            {/* Right */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="rounded-2xl overflow-hidden border border-gold/20 shadow-md">
-                <img
-                  src="https://mahadevbooks.today/wp-content/uploads/2025/05/mahadev-book-online-bonuses.jpg"
-                  alt="Mahadev Book Online Bonuses"
-                  className="w-full max-w-sm h-auto object-cover"
-                  loading="lazy"
-                />
-              </div>
+            <div className="bg-black/50 p-4 rounded-lg border border-gray-800">
+              <h3 className="font-bold text-gold mb-2">Can I manage my funds directly on the platform?</h3>
+              <p className="text-sm text-gray-300">Yes, once logged in, you can view your balance, initiate deposits, and request withdrawals from your account dashboard.</p>
             </div>
           </div>
         </section>
+
+        {/* Section 8: Internal Links Map */}
+        <section className="max-w-4xl mx-auto text-center pt-8 border-t border-gray-800">
+          <p className="text-gray-400 mb-4 uppercase tracking-widest text-sm font-bold">Explore More</p>
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8">
+            <Link href="/" className="text-white hover:text-gold transition-colors underline-offset-4 hover:underline">
+              &rarr; Mahadev Book
+            </Link>
+            <Link href="/mahadev-app" className="text-white hover:text-gold transition-colors underline-offset-4 hover:underline">
+              &rarr; Mahadev Book App
+            </Link>
+            <Link href="/login" className="text-white hover:text-gold transition-colors underline-offset-4 hover:underline">
+              &rarr; Login
+            </Link>
+          </div>
+        </section>
+
       </main>
       <Footer />
       <FloatingWhatsApp />

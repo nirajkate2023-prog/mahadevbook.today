@@ -117,7 +117,7 @@ export default function Home() {
             {/* Left */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-gold leading-tight tracking-wide uppercase">
-                Mahadev Book Online Cricket ID & Betting Platform
+                Welcome to Mahadev Book
               </h1>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
                 Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, an online sports betting and cricket ID platform. Register for an account, log in securely, and access cricket, other sports, and casino markets through a clear signup process.
@@ -205,10 +205,10 @@ export default function Home() {
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-10">
             <h3 className="text-xl sm:text-3xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
-              Mahadev Book Login And Registration
+              Account Access &amp; Registration
             </h3>
             <p className="text-gray-300 text-base md:text-lg mt-4">
-              Using Mahadev Book Web App you started quickly and easily. This is the process of registration and login:
+              Getting started is quick and easy. This is the process for registration and login:
             </p>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
@@ -227,7 +227,7 @@ export default function Home() {
                     loading="lazy"
                   />
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-gold">Mahadev Book Registration:</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-gold">Registration Process:</h3>
                 <ul className="space-y-3 text-sm md:text-base text-gray-300">
                   <li>✔ <strong>Visit the Official Website:</strong> Go to https://mahadevbooks.today/</li>
                   <li>✔ <strong>Press on “Sign Up” or “Create Account”:</strong> Clicking on this button you&apos;ll be redirected to the homepage.</li>
@@ -261,9 +261,9 @@ export default function Home() {
                     loading="lazy"
                   />
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-gold">Mahadev Book Login:</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-gold">Login Process:</h3>
                 <p className="text-sm md:text-base text-gray-300">
-                  After completing the registration process, go back to the homepage and click on <strong>Mahadev Book Login:</strong>
+                  After completing the registration process, go back to the homepage and click to log in:
                 </p>
                 <ul className="space-y-3 text-sm md:text-base text-gray-300">
                   <li>✔ Enter your ID and password</li>
@@ -326,7 +326,7 @@ export default function Home() {
           {/* Pill Shaped Title */}
           <div className="max-w-2xl mx-auto border border-gold rounded-full py-2.5 px-4 sm:px-8 bg-black text-center mb-8 sm:mb-12 shadow-md">
             <h3 className="text-base sm:text-lg md:text-2xl font-bold text-white uppercase tracking-wider">
-              Top Sports to Bet on Mahadev Book
+              Available Sports Markets
             </h3>
           </div>
 
@@ -449,7 +449,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-10">
             <h3 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
-              Top Casino Games on Mahadev Book Online
+              Casino Gaming Options
             </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
@@ -489,7 +489,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto border-2 border-gold/40 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 bg-[#0c0c0e] shadow-lg">
           <div className="text-center mb-8">
             <h3 className="text-2xl md:text-4xl font-extrabold text-gold uppercase tracking-wider">
-              Fantasy Cricket with Mahadev Book
+              Fantasy Cricket
             </h3>
             <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           </div>
@@ -637,7 +637,7 @@ export default function Home() {
           {/* Pill Shaped Title */}
           <div className="max-w-xl mx-auto border border-black rounded-full py-3 px-4 sm:px-8 bg-[#ffca61] text-center mb-8 sm:mb-10 shadow-sm">
             <h2 className="text-base sm:text-lg md:text-2xl font-bold text-black uppercase tracking-wider font-heading">
-              Mahadev Book FAQs
+              Frequently Asked Questions
             </h2>
           </div>
 
