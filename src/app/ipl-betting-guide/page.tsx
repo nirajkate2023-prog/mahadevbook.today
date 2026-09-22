@@ -124,7 +124,7 @@ export default function IplBettingGuide() {
           <p className="text-gray-400 text-sm mt-2">How to Bet on Indian Premier League Matches – Complete 2026 Guide</p>
           <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           <p className="text-gray-300 text-base md:text-lg mt-6 leading-relaxed">
-            The Indian Premier League is the most bet-on cricket competition in the world. This guide explains the key betting markets, how live IPL odds work, and how to approach IPL betting responsibly.
+            The Indian Premier League is the most bet-on cricket competition in the world. This guide explains the key betting markets, how live IPL odds work, and how to approach IPL betting responsibly. Not sure about a betting term? Consult our <a href="/betting-glossary" className="text-gold font-semibold hover:underline">Betting Glossary</a>.
           </p>
         </section>
 
@@ -267,7 +267,7 @@ export default function IplBettingGuide() {
             Access IPL Betting Markets Today
           </h2>
           <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto">
-            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> and explore live IPL betting markets, fantasy cricket leagues, and instant UPI deposits — all through <a href="/" className="text-gold font-semibold hover:underline">Mahadev Books</a>.
+            Get your <a href="/online-cricket-id" className="text-gold font-semibold hover:underline">Online Cricket ID</a> and explore live IPL betting markets, fantasy cricket leagues, and instant UPI deposits — all through the <a href="/mahadev-book-online" className="text-gold font-semibold hover:underline">Mahadev Book Online Platform</a>.
           </p>
           <a
             href="https://wa.me/+919864360936"

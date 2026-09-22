@@ -126,7 +126,7 @@ export default function CricketBettingGuide() {
           <p className="text-gray-400 text-sm mt-2">How Online Cricket Betting Works – Beginner to Intermediate</p>
           <div className="w-24 h-0.5 bg-gold mx-auto mt-4" />
           <p className="text-gray-300 text-base md:text-lg mt-6 leading-relaxed">
-            Cricket betting in India has grown dramatically over the past decade. Whether you&apos;re curious about IPL markets, T20 internationals, or Test cricket, this guide explains how it all works — from reading odds to placing your first bet responsibly.
+            Cricket betting in India has grown dramatically over the past decade. Whether you&apos;re curious about IPL markets, T20 internationals, or Test cricket, this guide explains how it all works — from reading odds to placing your first bet responsibly. If you come across unfamiliar terms, check our <a href="/betting-glossary" className="text-gold font-semibold hover:underline">Betting Glossary</a>.
           </p>
         </section>
 
