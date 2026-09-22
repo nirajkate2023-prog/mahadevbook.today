@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -91,6 +92,20 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-sans bg-dark-bg text-white antialiased">
         {children}
       </body>
+      
+      {/* Google Analytics Tag */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=G-2JESH03M87`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2JESH03M87');
+        `}
+      </Script>
     </html>
   );
 }
