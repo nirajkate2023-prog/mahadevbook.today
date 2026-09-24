@@ -17,7 +17,7 @@ const organizationJsonLd = {
   url: "https://mahadevbooks.today",
   logo: "https://mahadevbooks.today/wp-content/uploads/2025/05/cropped-mahadev-book-logo-120x40.png",
   description:
-    "Mahadev Book is a secure online cricket ID and sports betting platform offering live betting, fantasy sports, and 24/7 customer support.",
+    "Mahadev Book is a secure online cricket ID and sports exchange platform offering live casino games, instant betting access, fast withdrawals, and 24/7 customer support.",
   foundingDate: "2015",
   areaServed: "IN",
   contactPoint: {
@@ -42,7 +42,7 @@ const homeFaqJsonLd = {
       name: "What is Mahadev Book and how does it work?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Mahadev Book is a secure online betting platform offering sports betting, casino games, and fantasy gaming. Users can register, get a Mahadev Book ID, deposit funds, and place bets on various events using a secure and user-friendly interface.",
+        text: "Mahadev Book is a secure sports exchange and live casino platform offering instant betting access. Users can register, get a Mahadev Book ID, deposit funds, and place bets with fast withdrawals on various events.",
       },
     },
     {
@@ -120,7 +120,7 @@ export default function Home() {
                 Welcome to Mahadev Book
               </h1>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, an online sports betting and cricket ID platform. Register for an account, log in securely, and access cricket, other sports, and casino markets through a clear signup process.
+                Welcome to <strong className="text-gold font-bold">Mahadev Book</strong>, India&apos;s leading sports exchange and live casino platform offering instant betting access. Get your online cricket ID, log in securely, and enjoy fast withdrawals with 24/7 support.
               </p>
               <div className="pt-2">
                 <a
