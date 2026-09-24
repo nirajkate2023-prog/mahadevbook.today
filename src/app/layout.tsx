@@ -24,11 +24,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://mahadevbooks.today"),
   title: {
-    default: "Top #1 Website To Get Online Cricket ID | Mahadev Books Online",
+    default: "Mahadev Book: Get Online Betting IDs | Instant Betting Access",
     template: "%s | Mahadev Book",
   },
   description:
-    "Mahadev Books is the Best Platform to Get your Online Cricket ID & Sports Betting ID Online with 24x7 Support 🏏 Fast & Secure UPI Withdrawals Worldwide!",
+    "Mahadev Book, India's most reliable platform for online betting IDs and sports wagering, including sports betting, live casino, slots, poker, and fast withdrawals.",
   keywords: [
     "Mahadev Book",
     "cricket betting ID",
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
     canonical: "https://mahadevbooks.today/",
   },
   openGraph: {
-    title: "Mahadev Book Official | Cricket ID & Sports Betting Platform",
+    title: "Mahadev Book: Get Online Betting IDs | Instant Betting Access",
     description:
-      "Get a verified Mahadev Book Cricket ID with quick activation, secure UPI payments, live cricket betting access, and 24/7 customer support.",
+      "Mahadev Book, India's most reliable platform for online betting IDs and sports wagering, including sports betting, live casino, slots, poker, and fast withdrawals.",
     url: "https://mahadevbooks.today/",
     siteName: "Mahadev Book",
     type: "website",
@@ -70,9 +70,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mahadev Book Official | Cricket ID & Sports Betting Platform",
+    title: "Mahadev Book: Get Online Betting IDs | Instant Betting Access",
     description:
-      "Get a verified Mahadev Book Cricket ID with quick activation, secure UPI payments, and 24/7 customer support.",
+      "Mahadev Book, India's most reliable platform for online betting IDs and sports wagering, including sports betting, live casino, slots, poker, and fast withdrawals.",
     images: [
       "https://mahadevbooks.today/wp-content/uploads/2026/05/Hero-Page.png",
     ],
